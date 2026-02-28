@@ -3,8 +3,8 @@
                     <div class="row">
                         <div class="col-md-6 col-lg-5" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
                             <div class="footer-widget footer-widget--about">
-                                <a href="index.html" class="footer-widget__logo">
-                                    <img src="img/tech_scalify_bg.png" width="111" alt="Lotech">
+                                <a href="index.php" class="footer-widget__logo">
+                                    <img src="img/white.png" width="190" alt="Lotech">
                                 </a>
                                 <p class="footer-widget__text">
                                     Provide the expertise and support that proper<br> your business forward.
@@ -38,10 +38,10 @@
                             <div class="footer-widget footer-widget--links">
                                 <h2 class="footer-widget__title">Quick Links</h2><!-- /.footer-widget__title -->
                                 <ul class="list-unstyled footer-widget__links">
-                                    <li><a href="index.html">Pick Up Locations</a></li>
-                                    <li><a href="contact.html">Terms Of Payments</a></li>
-                                    <li><a href="about.html">Where to find Us</a></li>
-                                    <li><a href="contact.html">Privacy Policy</a></li>
+                                    <li><a href="index.php">Pick Up Locations</a></li>
+                                    <li><a href="contact.php">Terms Of Payments</a></li>
+                                    <li><a href="about.php">Where to find Us</a></li>
+                                    <li><a href="contact.php">Privacy Policy</a></li>
                                 </ul><!-- /.list-unstyled footer-widget__links -->
                             </div><!-- /.footer-widget -->
                         </div><!-- /.col-md-6 -->
@@ -51,16 +51,16 @@
                                 <ul class="footer-widget__info">
                                     <li>
                                         <i class="flaticon-phone"></i>
-                                        <a href="tel:70455501270022">(704) 555-0127 00 22</a><br>
-                                        <a href="tel:48055501036655">(480) 555-0103 66 55</a>
+                                        <a href="tel:70455501270022">(+91) 871-787-2372</a><br>
+                                        <!-- <a href="tel:48055501036655">(480) 555-0103 66 55</a> -->
                                     </li>
                                     <li>
                                         <i class="flaticon-envelope"></i>
-                                        <a href="mailto:example.info@gmail.com">example.info@gmail.com</a>
+                                        <a href="mailto:techscalify.com">techscalify.com</a>
                                     </li>
                                     <li>
                                         <i class="flaticon-location"></i>
-                                        4517 Washington Ave. Manchester, Kentucky 39495
+                                        Raipur, Chhattisgarh, India 
                                     </li>
                                 </ul><!-- /.list-unstyled -->
                             </div><!-- /.footer-widget -->

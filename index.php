@@ -5,7 +5,7 @@
         <main>
             <!-- hero-banner-start -->
             <section class="hero-banner-one">
-                <div class="hero-banner-one__shape"
+                <div class="hero-banner-one__shape "
                     style="background-image: url(assets/images/shapes/hero-banner-shape-bg.png);" data-speed="1.5"
                     data-lag="0"></div>
                 <div class="container">
@@ -31,7 +31,7 @@
                         <div class="col-md-3 tp-btn-trigger">
                             <div class="hero-banner-one__circle tp-btn-bounce">
                                 <div class="hero-banner-one__circle__logo">
-                                    <img src="assets/images/banner-logo.png" alt="Lotech">
+                                    <img src="img/techscalify.png" alt="Lotech">
                                 </div>
                                 <div class="curved-circle">
                                     <div class="curved-circle--item" data-circle-text-options='{
@@ -155,7 +155,7 @@
                                     </p>
                                 </div>
                                 <div class="about-one__content__btn">
-                                    <a href="about.html" class="lotech-btn">
+                                    <a href="about.php" class="lotech-btn">
                                         <span>Explore Our Services<span class="lotech-btn__icon"><i
                                                     class="flaticon-up-right-arrow"></i><i
                                                     class="flaticon-up-right-arrow"></i></span></span>
@@ -428,7 +428,7 @@
                                                 Our skilled developers and digital experts deliver high-performance
                                                 web solutions built for speed, scalability, and long-term success.
                                             </p>
-                                            <a href="about.html" class="inner__btn">
+                                            <a href="about.php" class="inner__btn">
                                                 <span class="inner__btn__text">Read More</span>
                                                 <span class="inner__btn__icon"><i class="flaticon-up-right-arrow"></i><i
                                                         class="flaticon-up-right-arrow"></i></span>
@@ -452,7 +452,7 @@
                                                 We understand your goals and create custom digital strategies that
                                                 increase visibility, engagement, and conversions.
                                             </p>
-                                            <a href="about.html" class="inner__btn">
+                                            <a href="about.php" class="inner__btn">
                                                 <span class="inner__btn__text">Read More</span>
                                                 <span class="inner__btn__icon"><i class="flaticon-up-right-arrow"></i><i
                                                         class="flaticon-up-right-arrow"></i></span>
@@ -474,7 +474,7 @@
                                             <p>
                                                 From web development and SEO to marketing and IT support,
                                                 we provide complete digital solutions in one place. </p>
-                                            <a href="about.html" class="inner__btn">
+                                            <a href="about.php" class="inner__btn">
                                                 <span class="inner__btn__text">Read More</span>
                                                 <span class="inner__btn__icon"><i class="flaticon-up-right-arrow"></i><i
                                                         class="flaticon-up-right-arrow"></i></span>
@@ -497,7 +497,7 @@
                                                 We follow best security practices to protect your data,
                                                 ensure uptime, and maintain trust across all platforms.
                                             </p>
-                                            <a href="about.html" class="inner__btn">
+                                            <a href="about.php" class="inner__btn">
                                                 <span class="inner__btn__text">Read More</span>
                                                 <span class="inner__btn__icon"><i class="flaticon-up-right-arrow"></i><i
                                                         class="flaticon-up-right-arrow"></i></span>
@@ -687,104 +687,7 @@
                 </div>
             </section><!-- /.portfolio-one -->
 
-            <section class="testimonials-one">
-                <div class="container">
-                    <div class="sec-title text-center">
-
-                        <h6 class="sec-title__tagline bw-split-text">Testimonial</h6><!-- /.sec-title__tagline -->
-
-                        <h3 class="sec-title__title bw-split-text">What Says Our Honorable <br>Customers</h3>
-                        <!-- /.sec-title__title -->
-                    </div><!-- /.sec-title -->
-                    <div class="row">
-                        <div class="col-lg-6 text-splite-up">
-                            <div class="testimonials-one__carousel lotech-owl__carousel owl-carousel lotech-owl__carousel--custom-nav"
-                                data-owl-options='{
-						"items": 1,
-						"margin": 0,
-						"loop": true,
-						"smartSpeed": 700,
-						"nav": true,
-						"navText": ["<i class=\"flaticon-arrow-left\"></i>","<i class=\"flaticon-arrow-right\"></i>"],
-						"dots": false,
-						"autoplay": true
-					}'>
-                                <div class="item">
-                                    <div class="testimonials-card">
-                                        <div class="testimonials-card__top">
-                                            <div class="testimonials-card__author">
-                                                <div class="testimonials-card__quote">
-                                                    <img src="assets/images/shapes/quote-one.png" alt="lotech">
-                                                </div>
-                                                <h3 class="testimonials-card__name">
-                                                    Cameron Williamson
-                                                </h3><!-- /.testimonials-card__name -->
-                                                <p class="testimonials-card__designation">Web Designer</p>
-                                                <!-- /.testimonials-card__designation -->
-                                            </div>
-                                            <div class="testimonials-card__rating">
-                                                <i class="flaticon-star2"></i>
-                                                <i class="flaticon-star2"></i>
-                                                <i class="flaticon-star2"></i>
-                                                <i class="flaticon-star2"></i>
-                                                <i class="flaticon-star2"></i>
-                                            </div><!-- /.testimonials-card__rating -->
-                                        </div>
-                                        <div class="testimonials-card__content">
-                                            Lotech’s managed IT services have been a game-changer for us. Their
-                                            proactive
-                                            monitoring and quick
-                                            response times ensure that our systems are always up and running smoothly on
-                                            teach technology.
-                                        </div><!-- /.testimonials-card__content -->
-                                        <div class="testimonials-card__logo">
-                                            <img src="assets/images/resources/testimonial-1-logo.png" alt="lotech">
-                                        </div>
-                                    </div><!-- /.testimonials-card -->
-                                </div><!-- /.item -->
-                                <div class="item">
-                                    <div class="testimonials-card">
-                                        <div class="testimonials-card__top">
-                                            <div class="testimonials-card__author">
-                                                <div class="testimonials-card__quote">
-                                                    <img src="assets/images/shapes/quote-one.png" alt="lotech">
-                                                </div>
-                                                <h3 class="testimonials-card__name">
-                                                    William Porterfield
-                                                </h3><!-- /.testimonials-card__name -->
-                                                <p class="testimonials-card__designation">Web Developer</p>
-                                                <!-- /.testimonials-card__designation -->
-                                            </div>
-                                            <div class="testimonials-card__rating">
-                                                <i class="flaticon-star2"></i>
-                                                <i class="flaticon-star2"></i>
-                                                <i class="flaticon-star2"></i>
-                                                <i class="flaticon-star2"></i>
-                                                <i class="flaticon-star2"></i>
-                                            </div><!-- /.testimonials-card__rating -->
-                                        </div>
-                                        <div class="testimonials-card__content">
-                                            Lotech’s managed IT services have been a game-changer for us. Their
-                                            proactive
-                                            monitoring and quick
-                                            response times ensure that our systems are always up and running smoothly on
-                                            teach technology.
-                                        </div><!-- /.testimonials-card__content -->
-                                        <div class="testimonials-card__logo">
-                                            <img src="assets/images/resources/testimonial-1-logo.png" alt="lotech">
-                                        </div>
-                                    </div><!-- /.testimonials-card -->
-                                </div><!-- /.item -->
-                            </div><!-- /.testimonials-one__carousel -->
-                        </div>
-                        <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="200">
-                            <div class="testimonials-one__image">
-                                <img src="assets/images/resources/testi-1-1.png" alt="lotech">
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- /.container -->
-            </section><!-- /.testimonials-one -->
+<?php include 'component/testimonial.php';?>
 
             <section class="blog-one">
                 <div class="container">

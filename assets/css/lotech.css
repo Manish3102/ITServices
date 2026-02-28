@@ -7161,7 +7161,7 @@ body.megamenu-popup-active .mobile-nav__content {
 .hero-banner-one {
   position: relative;
   background-image: linear-gradient(124deg, #f6efff 0%, #ebf6f8 100%);
-  padding: 261px 0 425px;
+  padding: 200px 0 425px;
   margin-bottom: -325px;
 }
 @media (max-width: 767px) {
