@@ -1,5 +1,4 @@
-.0<+-9*+86/
-?php include 'layout/header.php';?>
+<?php include 'layout/header.php';?>
 
 <div id="smooth-wrapper">
     <div id="smooth-content">
@@ -25,14 +24,14 @@
                                 <a href="services.html" class="lotech-btn">
                                     <span>Explore Our Services<span class="lotech-btn__icon"><i
                                                 class="flaticon-up-right-arrow"></i><i
-                                            class="flaticon-up-right-arrow"></i></span></span>
+                                                class="flaticon-up-right-arrow"></i></span></span>
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-3 tp-btn-trigger">
                             <div class="hero-banner-one__circle tp-btn-bounce">
                                 <div class="hero-banner-one__circle__logo">
-                                    <img src="img/techscalify.png" alt="Tech Scalify Logo" width="150" height="150" loading="eager">
+                                    <img src="img/techscalify.png" alt="Lotech">
                                 </div>
                                 <div class="curved-circle">
                                     <div class="curved-circle--item" data-circle-text-options='{
@@ -104,22 +103,22 @@
             }
             }'>
                         <div class="client-carousel__one__item">
-                            <img src="assets/images/resources/brand-1-1.png" alt="Trusted Client Brand" width="150" height="60" loading="lazy">
+                            <img src="assets/images/resources/brand-1-1.png" alt="lotech">
                         </div><!-- /.owl-slide-item-->
                         <div class="client-carousel__one__item">
-                            <img src="assets/images/resources/brand-1-1.png" alt="Trusted Client Brand" width="150" height="60" loading="lazy">
+                            <img src="assets/images/resources/brand-1-1.png" alt="lotech">
                         </div><!-- /.owl-slide-item-->
                         <div class="client-carousel__one__item">
-                            <img src="assets/images/resources/brand-1-1.png" alt="Trusted Client Brand" width="150" height="60" loading="lazy">
+                            <img src="assets/images/resources/brand-1-1.png" alt="lotech">
                         </div><!-- /.owl-slide-item-->
                         <div class="client-carousel__one__item">
-                            <img src="assets/images/resources/brand-1-1.png" alt="Trusted Client Brand" width="150" height="60" loading="lazy">
+                            <img src="assets/images/resources/brand-1-1.png" alt="lotech">
                         </div><!-- /.owl-slide-item-->
                         <div class="client-carousel__one__item">
-                            <img src="assets/images/resources/brand-1-1.png" alt="Trusted Client Brand" width="150" height="60" loading="lazy">
+                            <img src="assets/images/resources/brand-1-1.png" alt="lotech">
                         </div><!-- /.owl-slide-item-->
                         <div class="client-carousel__one__item">
-                            <img src="assets/images/resources/brand-1-1.png" alt="Trusted Client Brand" width="150" height="60" loading="lazy">
+                            <img src="assets/images/resources/brand-1-1.png" alt="lotech">
                         </div><!-- /.owl-slide-item-->
                     </div><!-- /.thm-owl__slider -->
                 </div><!-- /.container -->
@@ -173,7 +172,7 @@
                         </div><!-- /.col-xl-6 -->
                         <div class="col-xl-6 text-end">
                             <div class="about-one__image" data-speed="1.1" data-lag="0">
-                                <img src="assets/images/resources/about-1-1.jpg" alt="Tech Scalify team working on IT solutions" width="600" height="400" loading="lazy">
+                                <img src="assets/images/resources/about-1-1.jpg" alt="lotech">
                                 <div class="about-one__image__experiance count-box" data-aos="flip-up"
                                     data-aos-duration="1200" data-aos-delay="300">
                                     <h3 class="about-one__image__experiance__count"><span class="count-text"
@@ -409,7 +408,7 @@
                                     Foundation for Growth</h3><!-- /.sec-title__title -->
                             </div><!-- /.sec-title -->
                             <div class="why-choose-one__image pt-2" data-speed="1.1" data-lag="0">
-                                <img src="assets/images/resources/why-choose-1-1.jpg" alt="Why choose Tech Scalify for IT services" width="600" height="400" loading="lazy">
+                                <img src="assets/images/resources/why-choose-1-1.jpg" alt="lotech">
                             </div>
                         </div>
                         <div class="col-lg-6" data-aos="flip-down" data-aos-duration="1400" data-aos-delay="200">
@@ -612,7 +611,7 @@
 			}'>
                         <div class="item">
                             <div class="portfolio-one__item">
-                                <img src="assets/images/folio/folio-1-1.jpg" alt="High-Performance Business Website Case Study" width="400" height="300" loading="lazy">
+                                <img src="assets/images/folio/folio-1-1.jpg" alt="lotech">
                                 <div class="portfolio-one__item__rm">
                                     <a href="case-study-details-right.html">
                                         <span><i class="flaticon-up-right-arrow"></i><i
@@ -629,7 +628,7 @@
                         </div><!-- item -->
                         <div class="item">
                             <div class="portfolio-one__item">
-                                <img src="assets/images/folio/folio-1-2.jpg" alt="Increased Organic Traffic and Leads Case Study" width="400" height="300" loading="lazy">
+                                <img src="assets/images/folio/folio-1-2.jpg" alt="lotech">
                                 <div class="portfolio-one__item__rm">
                                     <a href="case-study-details-right.html">
                                         <span><i class="flaticon-up-right-arrow"></i><i
@@ -646,7 +645,7 @@
                         </div><!-- item -->
                         <div class="item">
                             <div class="portfolio-one__item">
-                                <img src="assets/images/folio/folio-1-3.jpg" alt="Custom Software for Business Automation Case Study" width="400" height="300" loading="lazy">
+                                <img src="assets/images/folio/folio-1-3.jpg" alt="lotech">
                                 <div class="portfolio-one__item__rm">
                                     <a href="case-study-details-right.html">
                                         <span><i class="flaticon-up-right-arrow"></i><i
@@ -663,7 +662,7 @@
                         </div><!-- item -->
                         <div class="item">
                             <div class="portfolio-one__item">
-                                <img src="assets/images/folio/folio-1-4.jpg" alt="24/7 Managed IT and System Stability Case Study" width="400" height="300" loading="lazy">
+                                <img src="assets/images/folio/folio-1-4.jpg" alt="lotech">
                                 <div class="portfolio-one__item__rm">
                                     <a href="case-study-details-right.html">
                                         <span><i class="flaticon-up-right-arrow"></i><i
@@ -718,7 +717,9 @@
                                 <div class="blog-card__image">
                                     <a href="blog-details-right.html">
                                         <img src="assets/images/blog/blog-1-1.jpg"
-                                            alt="Businesses are increasingly adopting hybrid and multi-cloud strategies" width="400" height="250" loading="lazy">
+                                            alt="Businesses are increasingly adopting hybrid and multi-cloud strategies.">
+                                        <img src="assets/images/blog/blog-1-1.jpg"
+                                            alt="Businesses are increasingly adopting hybrid and multi-cloud strategies.">
                                     </a>
                                     <div class="blog-card__date">15 May 2024</div><!-- /.blog-card__date -->
                                 </div><!-- /.blog-card__image -->
@@ -741,7 +742,9 @@
                                 <div class="blog-card__image">
                                     <a href="blog-details-right.html">
                                         <img src="assets/images/blog/blog-1-2.jpg"
-                                            alt="Implementing proactive monitoring tools to prevent IT downtime" width="400" height="250" loading="lazy">
+                                            alt="Implementing proactive monitoring tools allows you to detect.">
+                                        <img src="assets/images/blog/blog-1-2.jpg"
+                                            alt="Implementing proactive monitoring tools allows you to detect.">
                                     </a>
                                     <div class="blog-card__date">15 May 2024</div><!-- /.blog-card__date -->
                                 </div><!-- /.blog-card__image -->
@@ -764,7 +767,9 @@
                                 <div class="blog-card__image">
                                     <a href="blog-details-right.html">
                                         <img src="assets/images/blog/blog-1-3.jpg"
-                                            alt="Why a strong disaster recovery plan is essential for business stability" width="400" height="250" loading="lazy">
+                                            alt="A comprehensive disaster recovery plan is essential to minimize.">
+                                        <img src="assets/images/blog/blog-1-3.jpg"
+                                            alt="A comprehensive disaster recovery plan is essential to minimize.">
                                     </a>
                                     <div class="blog-card__date">15 May 2024</div><!-- /.blog-card__date -->
                                 </div><!-- /.blog-card__image -->
@@ -961,4 +966,41 @@
 </a>
 <!-- back-to-top-end -->
 
-<?php include 'layout/footer-end-css.php'; ?>
+
+<script src="assets/vendors/jquery/jquery-3.7.0.min.js"></script>
+<script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendors/bootstrap-select/bootstrap-select.min.js"></script>
+<script src="assets/vendors/jarallax/jarallax.min.js"></script>
+<script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
+<script src="assets/vendors/date-time-picker/jquery.datetimepicker.min.js"></script>
+<script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
+<script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
+<script src="assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
+<script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
+<script src="assets/vendors/nouislider/nouislider.min.js"></script>
+<script src="assets/vendors/tiny-slider/tiny-slider.js"></script>
+<script src="assets/vendors/wnumb/wNumb.min.js"></script>
+<script src="assets/vendors/owl-carousel/js/owl.carousel.min.js"></script>
+<script src="assets/vendors/aos/aos.js"></script>
+<script src="assets/vendors/imagesloaded/imagesloaded.min.js"></script>
+<script src="assets/vendors/isotope/isotope.js"></script>
+<script src="assets/vendors/slick/slick.min.js"></script>
+<script src="assets/vendors/countdown/countdown.min.js"></script>
+<script src="assets/vendors/jquery-circleType/jquery.circleType.js"></script>
+<script src="assets/vendors/jquery-lettering/jquery.lettering.min.js"></script>
+
+<!-- gsap js -->
+<script src="assets/vendors/gsap/gsap.js"></script>
+<script src="assets/vendors/gsap/scroll-smoother.js"></script>
+<script src="assets/vendors/gsap/scroll-trigger.js"></script>
+<script src="assets/vendors/gsap/scroll-to-plugin.js"></script>
+<script src="assets/vendors/gsap/split-text.js"></script>
+<script src="assets/vendors/gsap/gsap-lotech.js"></script>
+<!-- template js -->
+<script src="assets/js/lotech.js"></script>
+</body>
+
+
+
+</html>
