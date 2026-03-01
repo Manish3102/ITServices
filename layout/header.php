@@ -6,6 +6,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
+    <!-- Performance: Resource Hints -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Preload critical images -->
+    <link rel="preload" href="img/tech_scalify_lg.png" as="image" type="image/png">
+    <link rel="preload" href="img/techscalify.png" as="image" type="image/png">
+    
     <?php
     // Get current page name
     $page_name = basename($_SERVER['PHP_SELF'], '.php');
@@ -197,30 +207,66 @@
     }
     </script>
 
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com/">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&amp;family=Yantramanav:wght@100;300;400;500;700;900&amp;display=swap" rel="stylesheet">
-
+    <!-- Critical CSS: Bootstrap and main template (render-blocking) -->
     <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/vendors/bootstrap-select/bootstrap-select.min.css" />
-    <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
-    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
-    <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css" />
-    <link rel="stylesheet" href="assets/vendors/date-time-picker/jquery.datetimepicker.min.css" />
-    <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css" />
-    <link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css" />
-    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.min.css" />
-    <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.pips.css" />
-    <link rel="stylesheet" href="assets/vendors/tiny-slider/tiny-slider.css" />
-    <link rel="stylesheet" href="assets/vendors/lotech-icons/style.css" />
-    <link rel="stylesheet" href="assets/vendors/slick/slick.css">
-    <link rel="stylesheet" href="assets/vendors/aos/aos.css">
-    <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.theme.default.min.css" />
-
-    <!-- template styles -->
     <link rel="stylesheet" href="assets/css/lotech.css?v=2" />
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="assets/vendors/fontawesome/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css"></noscript>
+    
+    <!-- Non-critical CSS: Load asynchronously -->
+    <link rel="preload" href="assets/vendors/bootstrap-select/bootstrap-select.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="assets/vendors/bootstrap-select/bootstrap-select.min.css"></noscript>
+    
+    <link rel="preload" href="assets/vendors/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="assets/vendors/animate/animate.min.css"></noscript>
+    
+    <link rel="preload" href="assets/vendors/jquery-ui/jquery-ui.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css"></noscript>
+    
+    <link rel="preload" href="assets/vendors/date-time-picker/jquery.datetimepicker.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="assets/vendors/date-time-picker/jquery.datetimepicker.min.css"></noscript>
+    
+    <link rel="preload" href="assets/vendors/jarallax/jarallax.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css"></noscript>
+    
+    <link rel="preload" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css"></noscript>
+    
+    <link rel="preload" href="assets/vendors/nouislider/nouislider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="assets/vendors/nouislider/nouislider.min.css"></noscript>
+    
+    <link rel="preload" href="assets/vendors/nouislider/nouislider.pips.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="assets/vendors/nouislider/nouislider.pips.css"></noscript>
+    
+    <link rel="preload" href="assets/vendors/tiny-slider/tiny-slider.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="assets/vendors/tiny-slider/tiny-slider.css"></noscript>
+    
+    <link rel="preload" href="assets/vendors/lotech-icons/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="assets/vendors/lotech-icons/style.css"></noscript>
+    
+    <link rel="preload" href="assets/vendors/slick/slick.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="assets/vendors/slick/slick.css"></noscript>
+    
+    <link rel="preload" href="assets/vendors/aos/aos.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="assets/vendors/aos/aos.css"></noscript>
+    
+    <link rel="preload" href="assets/vendors/owl-carousel/css/owl.carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.carousel.min.css"></noscript>
+    
+    <link rel="preload" href="assets/vendors/owl-carousel/css/owl.theme.default.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="assets/vendors/owl-carousel/css/owl.theme.default.min.css"></noscript>
+    
+    <!-- Optimized Google Fonts: Load with font-display swap -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Yantramanav:wght@100;300;400;500;700;900&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Yantramanav:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"></noscript>
+    
+    <!-- Script to handle async CSS loading -->
+    <script>
+    /*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
+    (function(w){"use strict";var loadCSS=function(href,before,media){var doc=w.document;var ss=doc.createElement("link");var ref;if(before){ref=before}else{var refs=(doc.body||doc.getElementsByTagName("head")[0]).childNodes;ref=refs[refs.length-1]}var sheets=doc.styleSheets;ss.rel="stylesheet";ss.href=href;ss.media="only x";function ready(cb){if(doc.body){return cb()}setTimeout(function(){ready(cb)})}ready(function(){ref.parentNode.insertBefore(ss,before?ref:ref.nextSibling)});var onloadcssdefined=function(cb){var resolvedHref=ss.href;var i=sheets.length;while(i--){if(sheets[i].href===resolvedHref){return cb()}}setTimeout(function(){onloadcssdefined(cb)})};ss.addEventListener&&ss.addEventListener("load",function(){ss.media=media||"all"});ss.onloadcssdefined=onloadcssdefined;onloadcssdefined(function(){ss.media!==media&&(ss.media=media||"all")});return ss};if(typeof exports!=="undefined"){exports.loadCSS=loadCSS}else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this));
+    </script>
 </head>
 <style>
 /* ============================= */
@@ -275,7 +321,7 @@
                     <a href="#" class="topbar__toggler main-header__toggler"><i><span></span><span></span><span></span></i>Menu</a>
                     <div class="topbar__logo">
                         <a href="index.php" aria-label="Tech Scalify Home">
-                            <img src="img/tech_scalify_lg.png" alt="Tech Scalify - IT Services & Solutions" width="133" height="40">
+                            <img src="img/tech_scalify_lg.png" alt="Tech Scalify - IT Services & Solutions" width="133" height="40" fetchpriority="high">
                         </a>
                     </div>
                     <div class="topbar__social">
