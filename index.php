@@ -12,10 +12,9 @@
                     <div class="row d-flex align-items-center">
                         <div class="col-md-9">
                             <div class="hero-banner-one__content">
-                                <h3 class="hero-banner-one__title">
+                                <h1 class="hero-banner-one__title">
                                     Leading Global <span>IT Services.</span>
-                                    <!--need optimize -->
-                                </h3>
+                                </h1>
                                 <p class="hero-banner-one__text">
                                     Tech Scalify is a trusted IT services company delivering scalable, secure, and
                                     innovative digital solutions to help businesses grow faster. From cloud computing to
@@ -31,7 +30,7 @@
                         <div class="col-md-3 tp-btn-trigger">
                             <div class="hero-banner-one__circle tp-btn-bounce">
                                 <div class="hero-banner-one__circle__logo">
-                                    <img src="img/techscalify.png" alt="Lotech">
+                                    <img src="img/techscalify.png" alt="Tech Scalify Logo - IT Services Company" width="150" height="150">
                                 </div>
                                 <div class="curved-circle">
                                     <div class="curved-circle--item" data-circle-text-options='{
@@ -103,22 +102,22 @@
             }
             }'>
                         <div class="client-carousel__one__item">
-                            <img src="assets/images/resources/brand-1-1.png" alt="lotech">
+                            <img src="assets/images/resources/brand-1-1.png" alt="Trusted Client Brand Partner" width="150" height="60" loading="lazy">
                         </div><!-- /.owl-slide-item-->
                         <div class="client-carousel__one__item">
-                            <img src="assets/images/resources/brand-1-1.png" alt="lotech">
+                            <img src="assets/images/resources/brand-1-1.png" alt="Trusted Client Brand Partner" width="150" height="60" loading="lazy">
                         </div><!-- /.owl-slide-item-->
                         <div class="client-carousel__one__item">
-                            <img src="assets/images/resources/brand-1-1.png" alt="lotech">
+                            <img src="assets/images/resources/brand-1-1.png" alt="Trusted Client Brand Partner" width="150" height="60" loading="lazy">
                         </div><!-- /.owl-slide-item-->
                         <div class="client-carousel__one__item">
-                            <img src="assets/images/resources/brand-1-1.png" alt="lotech">
+                            <img src="assets/images/resources/brand-1-1.png" alt="Trusted Client Brand Partner" width="150" height="60" loading="lazy">
                         </div><!-- /.owl-slide-item-->
                         <div class="client-carousel__one__item">
-                            <img src="assets/images/resources/brand-1-1.png" alt="lotech">
+                            <img src="assets/images/resources/brand-1-1.png" alt="Trusted Client Brand Partner" width="150" height="60" loading="lazy">
                         </div><!-- /.owl-slide-item-->
                         <div class="client-carousel__one__item">
-                            <img src="assets/images/resources/brand-1-1.png" alt="lotech">
+                            <img src="assets/images/resources/brand-1-1.png" alt="Trusted Client Brand Partner" width="150" height="60" loading="lazy">
                         </div><!-- /.owl-slide-item-->
                     </div><!-- /.thm-owl__slider -->
                 </div><!-- /.container -->
@@ -172,7 +171,7 @@
                         </div><!-- /.col-xl-6 -->
                         <div class="col-xl-6 text-end">
                             <div class="about-one__image" data-speed="1.1" data-lag="0">
-                                <img src="assets/images/resources/about-1-1.jpg" alt="lotech">
+                                <img src="assets/images/resources/about-1-1.jpg" alt="Tech Scalify team working on IT solutions and digital transformation projects" width="600" height="400" loading="lazy">
                                 <div class="about-one__image__experiance count-box" data-aos="flip-up"
                                     data-aos-duration="1200" data-aos-delay="300">
                                     <h3 class="about-one__image__experiance__count"><span class="count-text"
@@ -408,7 +407,7 @@
                                     Foundation for Growth</h3><!-- /.sec-title__title -->
                             </div><!-- /.sec-title -->
                             <div class="why-choose-one__image pt-2" data-speed="1.1" data-lag="0">
-                                <img src="assets/images/resources/why-choose-1-1.jpg" alt="lotech">
+                                <img src="assets/images/resources/why-choose-1-1.jpg" alt="Why choose Tech Scalify for IT services and digital solutions" width="600" height="400" loading="lazy">
                             </div>
                         </div>
                         <div class="col-lg-6" data-aos="flip-down" data-aos-duration="1400" data-aos-delay="200">
@@ -611,7 +610,7 @@
 			}'>
                         <div class="item">
                             <div class="portfolio-one__item">
-                                <img src="assets/images/folio/folio-1-1.jpg" alt="lotech">
+                                <img src="assets/images/folio/folio-1-1.jpg" alt="High-Performance Business Website Case Study by Tech Scalify" width="400" height="300" loading="lazy">
                                 <div class="portfolio-one__item__rm">
                                     <a href="case-study-details-right.html">
                                         <span><i class="flaticon-up-right-arrow"></i><i
@@ -628,7 +627,7 @@
                         </div><!-- item -->
                         <div class="item">
                             <div class="portfolio-one__item">
-                                <img src="assets/images/folio/folio-1-2.jpg" alt="lotech">
+                                <img src="assets/images/folio/folio-1-2.jpg" alt="Increased Organic Traffic and Leads Case Study by Tech Scalify" width="400" height="300" loading="lazy">
                                 <div class="portfolio-one__item__rm">
                                     <a href="case-study-details-right.html">
                                         <span><i class="flaticon-up-right-arrow"></i><i
@@ -645,7 +644,7 @@
                         </div><!-- item -->
                         <div class="item">
                             <div class="portfolio-one__item">
-                                <img src="assets/images/folio/folio-1-3.jpg" alt="lotech">
+                                <img src="assets/images/folio/folio-1-3.jpg" alt="Custom Software for Business Automation Case Study by Tech Scalify" width="400" height="300" loading="lazy">
                                 <div class="portfolio-one__item__rm">
                                     <a href="case-study-details-right.html">
                                         <span><i class="flaticon-up-right-arrow"></i><i
@@ -662,7 +661,7 @@
                         </div><!-- item -->
                         <div class="item">
                             <div class="portfolio-one__item">
-                                <img src="assets/images/folio/folio-1-4.jpg" alt="lotech">
+                                <img src="assets/images/folio/folio-1-4.jpg" alt="24/7 Managed IT and System Stability Case Study by Tech Scalify" width="400" height="300" loading="lazy">
                                 <div class="portfolio-one__item__rm">
                                     <a href="case-study-details-right.html">
                                         <span><i class="flaticon-up-right-arrow"></i><i

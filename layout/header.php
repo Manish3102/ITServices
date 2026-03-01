@@ -5,14 +5,197 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home || Techscalify || IT Services & IT Solutions</title>
-    <!-- favicons Icons -->
-    <base href="/ITServices/">
+    
+    <?php
+    // Get current page name
+    $page_name = basename($_SERVER['PHP_SELF'], '.php');
+    if ($page_name == 'index') $page_name = 'home';
+    
+    // Define base URL - Update this with your actual domain
+    $base_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://" . $_SERVER['HTTP_HOST'];
+    $current_url = $base_url . $_SERVER['REQUEST_URI'];
+    
+    // Page-specific SEO data
+    $page_meta = [
+        'home' => [
+            'title' => 'IT Services & Solutions | Tech Scalify - Web Development, Cloud Solutions & IT Consulting',
+            'description' => 'Tech Scalify delivers scalable IT services, web development, cloud solutions, and digital transformation for businesses. Expert IT consulting, app development, and 24/7 technical support.',
+            'keywords' => 'IT services, web development, cloud solutions, IT consulting, digital transformation, app development, software development, SEO services, technical support, Tech Scalify',
+            'og_image' => $base_url . '/assets/images/og-image.jpg'
+        ],
+        'about' => [
+            'title' => 'About Us | Tech Scalify - Leading IT Services Company',
+            'description' => 'Learn about Tech Scalify, a leading IT services company with 25+ years of experience providing scalable digital solutions, web development, and IT consulting services.',
+            'keywords' => 'about tech scalify, IT services company, web development company, IT consulting firm',
+            'og_image' => $base_url . '/assets/images/og-image.jpg'
+        ],
+        'contact' => [
+            'title' => 'Contact Us | Tech Scalify - Get IT Solutions & Free Quote',
+            'description' => 'Contact Tech Scalify for IT services, web development, and digital solutions. Get a free quote today. Located in Raipur, Chhattisgarh, India.',
+            'keywords' => 'contact tech scalify, IT services contact, get IT quote, IT consulting contact',
+            'og_image' => $base_url . '/assets/images/og-image.jpg'
+        ],
+        'service-web-development' => [
+            'title' => 'Web Development Services | Tech Scalify - Responsive & SEO-Optimized Websites',
+            'description' => 'Professional web development services by Tech Scalify. We build fast, responsive, and SEO-optimized websites using modern technologies.',
+            'keywords' => 'web development, website development, responsive web design, custom websites',
+            'og_image' => $base_url . '/assets/images/og-image.jpg'
+        ],
+        'service-app-development' => [
+            'title' => 'Mobile App Development Services | Tech Scalify',
+            'description' => 'Expert mobile app development services for iOS and Android. Custom mobile applications designed for your business needs.',
+            'keywords' => 'app development, mobile app development, iOS app, Android app',
+            'og_image' => $base_url . '/assets/images/og-image.jpg'
+        ],
+        'service-software-development' => [
+            'title' => 'Custom Software Development | Tech Scalify',
+            'description' => 'Custom software solutions designed to streamline operations, improve efficiency, and support long-term business growth.',
+            'keywords' => 'software development, custom software, enterprise software',
+            'og_image' => $base_url . '/assets/images/og-image.jpg'
+        ],
+        'service-it-consulting' => [
+            'title' => 'IT Strategy Consulting | Tech Scalify',
+            'description' => 'Expert IT strategy consulting to align technology with business goals, improve scalability, and enable digital transformation.',
+            'keywords' => 'IT consulting, IT strategy, technology consulting',
+            'og_image' => $base_url . '/assets/images/og-image.jpg'
+        ],
+        'service-search-optimization' => [
+            'title' => 'SEO & Digital Marketing Services | Tech Scalify',
+            'description' => 'Data-driven SEO and digital marketing strategies that increase website traffic, improve search rankings, and generate high-quality leads.',
+            'keywords' => 'SEO services, digital marketing, search engine optimization',
+            'og_image' => $base_url . '/assets/images/og-image.jpg'
+        ],
+        'service-technical-support' => [
+            'title' => 'Technical Support & Managed IT Services | Tech Scalify',
+            'description' => 'Reliable 24/7 technical support and managed IT services to ensure system stability, security, and uninterrupted business operations.',
+            'keywords' => 'technical support, managed IT, IT support services, 24/7 IT support',
+            'og_image' => $base_url . '/assets/images/og-image.jpg'
+        ]
+    ];
+    
+    // Get meta for current page or default to home
+    $meta = $page_meta[$page_name] ?? $page_meta['home'];
+    ?>
+    
+    <!-- Primary Meta Tags -->
+    <title><?php echo htmlspecialchars($meta['title']); ?></title>
+    <meta name="title" content="<?php echo htmlspecialchars($meta['title']); ?>" />
+    <meta name="description" content="<?php echo htmlspecialchars($meta['description']); ?>" />
+    <meta name="keywords" content="<?php echo htmlspecialchars($meta['keywords']); ?>" />
+    <meta name="author" content="Tech Scalify" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="7 days" />
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="<?php echo htmlspecialchars($current_url); ?>" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="<?php echo htmlspecialchars($current_url); ?>" />
+    <meta property="og:title" content="<?php echo htmlspecialchars($meta['title']); ?>" />
+    <meta property="og:description" content="<?php echo htmlspecialchars($meta['description']); ?>" />
+    <meta property="og:image" content="<?php echo htmlspecialchars($meta['og_image']); ?>" />
+    <meta property="og:site_name" content="Tech Scalify" />
+    <meta property="og:locale" content="en_US" />
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="<?php echo htmlspecialchars($current_url); ?>" />
+    <meta name="twitter:title" content="<?php echo htmlspecialchars($meta['title']); ?>" />
+    <meta name="twitter:description" content="<?php echo htmlspecialchars($meta['description']); ?>" />
+    <meta name="twitter:image" content="<?php echo htmlspecialchars($meta['og_image']); ?>" />
+    
+    <!-- Favicons -->
+    
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
-    <link rel="icon" type="img/techscalify.png" sizes="32x32" href="img/techscalify.png" />
-    <link rel="icon" type="img/techscalify.png" sizes="16x16" href="img/techscalify.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="img/techscalify.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="img/techscalify.png" />
     <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
-    <meta name="description" content="Lotech is the best design for Business 2024. Lotech is a smooth and colorful HTML Template, perfect suitable for Business HTML Template. It includes everything you need for the website development." />
+    
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Tech Scalify",
+      "url": "<?php echo $base_url; ?>",
+      "logo": "<?php echo $base_url; ?>/img/tech_scalify_lg.png",
+      "description": "Tech Scalify delivers scalable IT services, web development, cloud solutions, and digital transformation for businesses.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Raipur",
+        "addressRegion": "Chhattisgarh",
+        "addressCountry": "IN"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-871-787-2372",
+        "contactType": "customer service",
+        "areaServed": "IN",
+        "availableLanguage": "English"
+      },
+      "sameAs": [
+        "https://facebook.com/",
+        "https://x.com/",
+        "https://instagram.com/",
+        "https://www.youtube.com/"
+      ]
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Tech Scalify",
+      "image": "<?php echo $base_url; ?>/img/tech_scalify_lg.png",
+      "@id": "<?php echo $base_url; ?>",
+      "url": "<?php echo $base_url; ?>",
+      "telephone": "+91-871-787-2372",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Raipur",
+        "addressLocality": "Raipur",
+        "addressRegion": "Chhattisgarh",
+        "postalCode": "",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 21.2514,
+        "longitude": 81.6296
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "opens": "09:00",
+        "closes": "18:00"
+      }
+    }
+    </script>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Tech Scalify",
+      "url": "<?php echo $base_url; ?>",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "<?php echo $base_url; ?>?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com/">
@@ -91,8 +274,8 @@
                 <div class="topbar__inner">
                     <a href="#" class="topbar__toggler main-header__toggler"><i><span></span><span></span><span></span></i>Menu</a>
                     <div class="topbar__logo">
-                        <a href="index.php">
-                            <img src="img/tech_scalify_lg.png" alt="Lotech HTML" width="133">
+                        <a href="index.php" aria-label="Tech Scalify Home">
+                            <img src="img/tech_scalify_lg.png" alt="Tech Scalify - IT Services & Solutions" width="133" height="40">
                         </a>
                     </div>
                     <div class="topbar__social">
