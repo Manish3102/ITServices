@@ -33,8 +33,7 @@
                                     <h3 class="contact-info__card__title">Phone</h3>
                                     <p class="contact-info__card__text">Speak directly with our team for quick assistance and project discussions.</p>
                                     <ul class="contact-info__card__list list-unstyled">
-                                        <li><a href="tel:+781002356123">+78 100 2356 123</a></li>
-                                        <li><a href="tel:+782002356123">+78 200 2356 123</a></li>
+                                        <li><a href="tel:+918717872372">(+91) 871-787-2372</a></li>
                                     </ul>
                                 </div><!-- /.contact-info__card -->
                             </div><!-- /.col-lg-4 col-md-6 -->
@@ -43,8 +42,7 @@
                                     <h3 class="contact-info__card__title">Email</h3>
                                     <p class="contact-info__card__text">Send us your requirements, questions, or ideas and we’ll get back to you promptly.</p>
                                     <ul class="contact-info__card__list list-unstyled">
-                                        <li><a href="mailto:infomela@gmail.com">infomela@gmail.com</a></li>
-                                        <li><a href="mailto:creativemela@gmail.com">creativemela@gmail.com</a></li>
+                                        <li><a href="mailto:techscalify@gmail.com">techscalify@gmail.com</a></li>
                                     </ul>
                                 </div><!-- /.contact-info__card -->
                             </div><!-- /.col-lg-4 col-md-6 -->
@@ -53,8 +51,7 @@
                                     <h3 class="contact-info__card__title">Location</h3>
                                     <p class="contact-info__card__text">Visit or connect with our team for in-person or virtual consultations.</p>
                                     <ul class="contact-info__card__list contact-info__card__list--address list-unstyled">
-                                        <li><a href="https://www.google.com/maps">260 Springs Crossing, <br> Canton, Georgia,
-                                                USA</a></li>
+                                        <li><a href="https://www.google.com/maps">Raipur, Chhattisgarh, India</a></li>
                                     </ul>
                                 </div><!-- /.contact-info__card -->
                             </div><!-- /.col-lg-4 col-md-6 -->
@@ -76,7 +73,7 @@
                                     <p class="contact-three__wrapper__text text-splite-up">
                                         Have a project in mind or need expert guidance for your business? <br> Reach out to us and let’s discuss how Tech Scalify can deliver reliable, scalable, and result-driven IT solutions tailored to your needs.
                                     </p>
-                                    <form class="contact-three__form contact-form-validated form-one" action="https://bracketweb.com/lotech-html/inc/sendemail.php" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="300">
+                                    <form class="contact-three__form contact-form-validated form-one" action="inc/sendemail_smtp.php" method="POST" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="300">
                                         <div class="form-one__group">
                                             <div class="form-one__control">
                                                 <input type="text" name="name" placeholder="Your Name*">
@@ -90,8 +87,8 @@
                                             <div class="form-one__control">
                                                 <div class="form-one__control__select">
                                                     <label class="sr-only" for="your-problem">Your Problem*</label>
-                                                    <select class="selectpicker" id="your-problem">
-                                                        <option value="problem">Your problem*</option>
+                                                    <select class="selectpicker" id="your-problem" name="problem">
+                                                        <option value="">Your problem*</option>
                                                         <option value="problem 01">Your problem 01</option>
                                                         <option value="problem 02">Your problem 02</option>
                                                         <option value="problem 03">Your problem 03</option>
@@ -111,7 +108,7 @@
                             </div><!-- /.col-xl-8 col-lg-7 -->
                             <div class="col-xl-4 col-lg-5" data-aos="fade-up" data-aos-duration="1500">
                                 <div class="contact-three__image" data-speed="1.1" data-lag="0">
-                                    <img src="assets/images/resources/contact-1-2.jpg" alt="Lotech">
+                                    <img src="assets/images/resources/contact-1-2.jpg" alt="Tech Scalify">
                                 </div>
                             </div><!-- /.col-xl-4 col-lg-5 -->
                         </div>
@@ -132,7 +129,7 @@
             <span class="mobile-nav__close mobile-nav__toggler"><i class="flaticon-close"></i></span>
 
             <div class="logo-box">
-                <a href="index.html" aria-label="logo image"><img src="assets/images/logo-light.png" width="155" alt="" /></a>
+                <a href="index.html" aria-label="logo image"><img src="img/tech_scalify_lg.png" width="155" alt="Tech Scalify" /></a>
             </div>
             <!-- /.logo-box -->
             <div class="mobile-nav__container"></div>
@@ -141,11 +138,11 @@
             <ul class="mobile-nav__contact list-unstyled">
                 <li>
                     <i class="fa fa-envelope"></i>
-                    <a href="mailto:needhelp@lotech.com">needhelp@lotech.com</a>
+                    <a href="mailto:techscalify@gmail.com">techscalify@gmail.com</a>
                 </li>
                 <li>
                     <i class="fa fa-phone-alt"></i>
-                    <a href="tel:666-888-0000">666 888 0000</a>
+                    <a href="tel:+918717872372">(+91) 871-787-2372</a>
                 </li>
             </ul><!-- /.mobile-nav__contact -->
             <div class="mobile-nav__social">
@@ -190,25 +187,24 @@
         <div class="sidebar-one__content">
             <div class="sidebar-one__close"><i class="flaticon-close"></i></div><!-- /.siderbar-close -->
             <div class="sidebar-one__logo">
-                <a href="index.html" aria-label="logo image"><img src="assets/images/logo-light.png" alt="lotech" width="133"></a>
+                <a href="index.html" aria-label="logo image"><img src="img/tech_scalify_lg.png" alt="Tech Scalify" width="133"></a>
             </div><!-- /.sidebar-one__logo-box -->
             <p class="sidebar-one__text">
-                Mauris ut enim sit amet lacus ornare ullamcor. Praesent placerat nequ
-                puru rhoncu tincidunt odio ultrices. Sed feugiat feugiat felis.
+                Tech Scalify is a trusted IT services company delivering scalable, secure, and innovative digital solutions to help businesses grow faster. From cloud computing to custom software development, we transform ideas into powerful technology.
             </p>
             <h4 class="sidebar-one__title">Contact Info:</h4>
             <ul class="sidebar-one__info">
                 <li>
                     <span class="fas fa-map-marker-alt"></span>
-                    85 Ketch Harbour RoadBensalem, PA 19020
+                    Raipur, Chhattisgarh, India
                 </li>
                 <li>
                     <span class="fas fa-envelope"></span>
-                    <a href="mailto:needhelp@company.com">needhelp@company.com</a>
+                    <a href="mailto:techscalify@gmail.com">techscalify@gmail.com</a>
                 </li>
                 <li>
                     <span class="fas fa-phone-alt"></span>
-                    <a href="tel:09969569535">099 695 695 35</a>
+                    <a href="tel:+918717872372">(+91) 871-787-2372</a>
                 </li>
             </ul>
             <div class="sidebar-one__social">

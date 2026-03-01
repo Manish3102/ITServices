@@ -135,10 +135,10 @@
           required: true,
           email: true
         },
-        message: {
+        phone: {
           required: true
         },
-        subject: {
+        message: {
           required: true
         }
       },
@@ -148,12 +148,16 @@
           $(form).attr("action"),
           $(form).serialize(),
           function (response) {
-            $(form).parent().find(".result").append(response);
+            $(form).parent().find(".result").html(response);
             $(form).find('input[type="text"]').val("");
             $(form).find('input[type="email"]').val("");
+            $(form).find('input[type="tel"]').val("");
             $(form).find("textarea").val("");
+            $(form).find("select").val("").trigger('change');
           }
-        );
+        ).fail(function(xhr, status, error) {
+          $(form).parent().find(".result").html('<div class="alert alert-danger">An error occurred. Please try again.</div>');
+        });
         return false;
       }
     });
