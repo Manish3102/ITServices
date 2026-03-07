@@ -1,4 +1,8 @@
-<?php include 'layout/header.php';?>
+<?php
+$page_title = 'Search Growth Optimization & SEO Services | Techscalify';
+$page_meta_description = 'Techscalify delivers growth-focused SEO and search optimization: technical SEO, content optimization, link building, and performance tracking for higher rankings and revenue.';
+include 'layout/header.php';
+?>
 
 <div id="smooth-wrapper">
     <div id="smooth-content">
@@ -11,7 +15,7 @@
                 <div class="page-header__content">
                     <h2 class="page-header__title">Search Growth Optimization Services</h2>
                     <ul class="lotech-breadcrumb list-unstyled">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.php">Home</a></li>
                         <li><span>Our Services</span></li>
                         <li><span>Search Growth Optimization Services</span></li>
                     </ul><!-- /.lotech-breadcrumb list-unstyled -->
@@ -43,7 +47,7 @@
                     </div><!-- /.col-xl-6 -->
                     <div class="col-xl-6 text-end">
                         <div class="about-one__image" data-speed="1.1" data-lag="0">
-                            <img src="assets/images/resources/about-1-1.jpg" alt="Technical Support and Managed IT Services by Tech Scalify - 24/7 IT Support Solutions">
+                            <img src="assets/images/resources/about-1-1.jpg" alt="SEO and Search Growth Optimization Services by Tech Scalify - Digital Marketing Solutions">
                             <div class="about-one__image__experiance count-box" data-aos="flip-up"
                                 data-aos-duration="1200" data-aos-delay="300">
                                 <h3 class="about-one__image__experiance__count"><span class="count-text" data-stop="25"
@@ -63,7 +67,7 @@
                 <div class="row">
                     <div class="col-xl-6 ">
                         <div class="about-one__image" data-speed="1.1" data-lag="0">
-                            <img src="assets/images/resources/about-1-1.jpg" alt="Technical Support and Managed IT Services by Tech Scalify - 24/7 IT Support Solutions">
+                            <img src="assets/images/resources/about-1-1.jpg" alt="SEO and Search Growth Optimization Services by Tech Scalify - Digital Marketing Solutions">
 
                         </div><!-- /.about-one__image -->
                     </div>
@@ -143,7 +147,7 @@
                     </div><!-- /.col-xl-6 -->
                     <div class="col-xl-6 text-end">
                         <div class="about-one__image" data-speed="1.1" data-lag="0">
-                            <img src="assets/images/resources/about-1-1.jpg" alt="Technical Support and Managed IT Services by Tech Scalify - 24/7 IT Support Solutions">
+                            <img src="assets/images/resources/about-1-1.jpg" alt="SEO and Search Growth Optimization Services by Tech Scalify - Digital Marketing Solutions">
                             <div class="about-one__image__experiance count-box" data-aos="flip-up"
                                 data-aos-duration="1200" data-aos-delay="300">
                                 <h3 class="about-one__image__experiance__count"><span class="count-text" data-stop="25"
@@ -179,7 +183,7 @@
                             <!-- <div class="service-one__item__icon"><i class="flaticon-consulting"></i></div> -->
                             <!-- /.service-icon -->
                             <h3 class="service-one__item__title">
-                                <a href="service-d-consulting.html">🔍 Advanced SEO Strategy</a>
+                                <a href="search-optimization.php">🔍 Advanced SEO Strategy</a>
                             </h3><!-- /.service-title -->
                             <p class="service-one__item__text">
                                 <ul>
@@ -205,7 +209,7 @@
                             <!-- <div class="service-one__item__icon"><i class="flaticon-consulting"></i></div> -->
                             <!-- /.service-icon -->
                             <h3 class="service-one__item__title">
-                                <a href="service-d-consulting.html">🛠 Technical SEO Optimization</a>
+                                <a href="search-optimization.php">🛠 Technical SEO Optimization</a>
                             </h3><!-- /.service-title -->
                             <p class="service-one__item__text">
                                 <ul>
@@ -231,7 +235,7 @@
                             <!-- <div class="service-one__item__icon"><i class="flaticon-consulting"></i></div> -->
                             <!-- /.service-icon -->
                             <h3 class="service-one__item__title">
-                                <a href="service-d-consulting.html">✍️ Content Optimization & Growth</a>
+                                <a href="search-optimization.php">✍️ Content Optimization & Growth</a>
                             </h3><!-- /.service-title -->
                             <p class="service-one__item__text">
                                 <ul>
@@ -257,7 +261,7 @@
                             <!-- <div class="service-one__item__icon"><i class="flaticon-consulting"></i></div> -->
                             <!-- /.service-icon -->
                             <h3 class="service-one__item__title">
-                                <a href="service-d-consulting.html">🔗 Authority & Link Building</a>
+                                <a href="search-optimization.php">🔗 Authority & Link Building</a>
                             </h3><!-- /.service-title -->
                             <p class="service-one__item__text">
                                 <ul>
@@ -283,7 +287,7 @@
                             <!-- <div class="service-one__item__icon"><i class="flaticon-consulting"></i></div> -->
                             <!-- /.service-icon -->
                             <h3 class="service-one__item__title">
-                                <a href="service-d-consulting.html">📊 Conversion & UX Optimization</a>
+                                <a href="search-optimization.php">📊 Conversion & UX Optimization</a>
                             </h3><!-- /.service-title -->
                             <p class="service-one__item__text">
                                 <ul>
@@ -309,7 +313,7 @@
                             <!-- <div class="service-one__item__icon"><i class="flaticon-consulting"></i></div> -->
                             <!-- /.service-icon -->
                             <h3 class="service-one__item__title">
-                                <a href="service-d-consulting.html">📈 Performance Tracking & Reporting</a>
+                                <a href="search-optimization.php">📈 Performance Tracking & Reporting</a>
                             </h3><!-- /.service-title -->
                             <p class="service-one__item__text">
                                 <ul>
@@ -348,7 +352,7 @@
                         </div><!-- /.sec-title -->
 
                         <div class="why-choose-one__image pt-2" data-speed="1.1" data-lag="0">
-                            <img src="assets/images/resources/why-choose-1-1.jpg" alt="Why Choose Tech Scalify Technical Support - Expert Managed IT Services">
+                            <img src="assets/images/resources/why-choose-1-1.jpg" alt="Why Choose Tech Scalify SEO Services - Expert Search Engine Optimization">
                         </div>
                     </div>
                     <div class="col-lg-6" data-aos="flip-down" data-aos-duration="1400" data-aos-delay="200">
@@ -442,7 +446,7 @@
                             <p class="cta-one__text">Partner with Techscalify IT Services & Marketing for reliable
                                 software development and management services that drive innovation and business growth.
                             </p>
-                            <a href="contact.html" class="lotech-btn">
+                            <a href="contact.php" class="lotech-btn">
                                 <span>Contact Us<span class="lotech-btn__icon"><i class="flaticon-up-right-arrow"></i><i
                                             class="flaticon-up-right-arrow"></i></span></span>
                             </a>

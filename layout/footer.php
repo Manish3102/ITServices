@@ -26,11 +26,11 @@
                             <div class="footer-widget footer-widget--links">
                                 <h2 class="footer-widget__title">IT Services</h2><!-- /.footer-widget__title -->
                                 <ul class="list-unstyled footer-widget__links">
-                                    <li><a href="service-d-consulting.html">Managed IT</a></li>
-                                    <li><a href="service-d-consulting.html">IT Support</a></li>
-                                    <li><a href="service-d-consulting.html">IT Consultancy</a></li>
-                                    <li><a href="service-d-management.html">Cloud Computing</a></li>
-                                    <li><a href="service-d-security.html">Cyber Security</a></li>
+                                    <li><a href="technical-support.php">Technical Support</a></li>
+                                    <li><a href="it-consulting.php">IT Consulting</a></li>
+                                    <li><a href="software-development.php">Software Development</a></li>
+                                    <li><a href="web-development.php">Web Development</a></li>
+                                    <li><a href="search-optimization.php">SEO & Digital Marketing</a></li>
                                 </ul><!-- /.list-unstyled footer-widget__links -->
                             </div><!-- /.footer-widget -->
                         </div><!-- /.col-md-6 -->

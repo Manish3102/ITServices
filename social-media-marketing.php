@@ -1,4 +1,8 @@
-<?php include 'layout/header.php';?>
+<?php
+$page_title = 'Professional Social Media Marketing Services | Techscalify';
+$page_meta_description = 'Techscalify offers social media marketing services: Facebook marketing, Instagram marketing, LinkedIn marketing, and SMM. Build brand awareness, grow engagement, and drive leads with data-driven social media strategy.';
+include 'layout/header.php';
+?>
 
 <div id="smooth-wrapper">
     <div id="smooth-content">
@@ -9,11 +13,11 @@
             <!-- /.page-header__bg -->
             <div class="container">
                 <div class="page-header__content">
-                    <h2 class="page-header__title">IT Strategy Consulting</h2>
+                    <h1 class="page-header__title">Social Media Marketing</h1>
                     <ul class="lotech-breadcrumb list-unstyled">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.php">Home</a></li>
                         <li><span>Our Services</span></li>
-                        <li><span>IT Strategy Consulting</span></li>
+                        <li><span>Social Media Marketing</span></li>
                     </ul><!-- /.lotech-breadcrumb list-unstyled -->
                 </div><!-- /.page-header__content -->
             </div><!-- /.container -->
@@ -26,34 +30,28 @@
                         <div class="about-one__content">
                             <div class="sec-title text-left">
 
-                                <h6 class="sec-title__tagline bw-split-text">IT Strategy Consulting Services</h6>
+                                <h6 class="sec-title__tagline bw-split-text">Social Media Marketing Services</h6>
                                 <!-- /.sec-title__tagline -->
 
-                                <h3 class="sec-title__title bw-split-text">Align Technology With Business Growth</h3>
-                                <!-- /.sec-title__title -->
+                                <h2 class="sec-title__title bw-split-text">Strategic Social Media Marketing That Builds
+                                    Brand Awareness & Drives Growth</h2><!-- /.sec-title__title -->
                             </div><!-- /.sec-title -->
                             <p class="service-details__text" data-aos="fade-up" data-aos-duration="1500">
-                                At Tech Scalify, we provide expert IT strategy consulting services that help businesses
-                                align technology with their long-term goals. We work closely with organizations to
-                                design smart, scalable, and future-ready IT roadmaps that improve efficiency, reduce
-                                operational costs, and accelerate digital transformation. </p>
+                                Tech Scalify is a trusted <strong>social media marketing agency</strong> delivering data-driven SMM strategies that increase brand visibility, engage your audience, and generate measurable business results. Our social media marketing services help startups, SMEs, and enterprises build a strong presence on Facebook, Instagram, LinkedIn, X (Twitter), and YouTube.
+                            </p>
                             <p class="service-details__text" data-aos="fade-up" data-aos-duration="1500">
-                                Our consulting approach focuses on understanding your business challenges, evaluating
-                                your existing IT infrastructure, and identifying opportunities where technology can
-                                create real competitive advantage.</p>
+                                From <strong>social media management</strong> and content creation to paid social advertising and community building, we design customized social media campaigns that align with your business goals and convert followers into customers.</p>
                             <div class="service-details__inner">
                                 <div class="row gutter-y-24">
                                     <div class="col-xl-6 col-lg-12 col-md-6" data-aos="fade-up" data-aos-duration="1500"
                                         data-aos-delay="100">
                                         <p class="service-details__inner__text">
-                                            From startups to growing enterprises, we help businesses make informed
-                                            technology decisions that support growth, scalability, and innovation.</p>
+                                            Our social media experts create engaging content strategies, run targeted social media advertising campaigns, and optimize your profiles for maximum reach and conversion across all major platforms.</p>
                                     </div><!-- /.col-xl-6 col-lg-12 col-md-6 -->
                                     <div class="col-xl-6 col-lg-12 col-md-6" data-aos="fade-up" data-aos-duration="1500"
                                         data-aos-delay="200">
                                         <p class="service-details__inner__text">
-                                            We create clear, actionable IT strategies that improve performance, enhance
-                                            security, and prepare your business for future growth.</p>
+                                            We combine organic social media marketing with paid social ads, community management, and performance analytics to ensure your brand stands out and drives real business growth.</p>
                                     </div><!-- /.col-xl-6 col-lg-12 col-md-6 -->
                                 </div><!-- /.row gutter-y-24 -->
                             </div>
@@ -61,7 +59,7 @@
                     </div><!-- /.col-xl-6 -->
                     <div class="col-xl-6 text-end">
                         <div class="about-one__image" data-speed="1.1" data-lag="0">
-                            <img src="assets/images/resources/about-1-1.jpg" alt="IT Strategy Consulting Services by Tech Scalify - Technology Consulting Experts">
+                            <img src="assets/images/resources/about-1-1.jpg" alt="Social Media Marketing Services by Tech Scalify - Facebook, Instagram, LinkedIn Marketing Agency">
                             <div class="about-one__image__experiance count-box" data-aos="flip-up"
                                 data-aos-duration="1200" data-aos-delay="300">
                                 <h3 class="about-one__image__experiance__count"><span class="count-text" data-stop="25"
@@ -81,125 +79,115 @@
                 <div class="row">
                     <div class="col-xl-6 ">
                         <div class="about-one__image" data-speed="1.1" data-lag="0">
-                            <img src="assets/images/resources/about-1-1.jpg" alt="IT Strategy Consulting Services by Tech Scalify - Technology Consulting Experts">
+                            <img src="assets/images/resources/about-1-1.jpg" alt="Social Media Marketing Strategy - Content Marketing and Social Media Advertising by Tech Scalify">
 
                         </div><!-- /.about-one__image -->
                     </div>
                     <div class="col-xl-6 d-flex align-items-center">
                         <div class="about-one__content">
                             <div class="sec-title text-left">
-                                <h6 class="sec-title__tagline bw-split-text">Our Mobile IT Strategy Consulting Services
-                                </h6>
-                                <h3 class="sec-title__title bw-split-text">Our IT Strategy Consulting Approach</h3>
+                                <h6 class="sec-title__tagline bw-split-text">What We Offer</h6>
+                                <h2 class="sec-title__title bw-split-text">Our Social Media Marketing Approach</h2>
                                 <!-- /.sec-title__title -->
                             </div><!-- /.sec-title -->
                             <p class="service-details__text" data-aos="fade-up" data-aos-duration="1500">
-                                At Tech Scalify, we follow a structured and business-focused consulting process:</p>
-                            <ul class="blog-details__content__list list-unstyled" data-aos="fade-up"
-                                data-aos-duration="1500">
-                                <li>
-                                    <span class="blog-details__content__list__icon"><i
-                                            class="flaticon-check"></i></span>
-                                    Business and technology assessment
-                                </li>
-                                <li>
-                                    <span class="blog-details__content__list__icon"><i
-                                            class="flaticon-check"></i></span>
-                                    IT roadmap planning and architecture design
-                                </li>
-                                <li>
-                                    <span class="blog-details__content__list__icon"><i
-                                            class="flaticon-check"></i></span>
-                                    Digital transformation strategy
-                                </li>
-                                <li>
-                                    <span class="blog-details__content__list__icon"><i
-                                            class="flaticon-check"></i></span>
-                                    Infrastructure and system optimization
-                                </li>
-                                <li>
-                                    <span class="blog-details__content__list__icon"><i
-                                            class="flaticon-check"></i></span>
-                                    Technology modernization and migration planning
-                                </li>
-                                <li>
-                                    <span class="blog-details__content__list__icon"><i
-                                            class="flaticon-check"></i></span>
-                                    Risk management and cybersecurity guidance
-                                </li>
-                                <li>
-                                    <span class="blog-details__content__list__icon"><i
-                                            class="flaticon-check"></i></span>
-                                    Cost optimization and resource planning
-                                </li>
-                                <li>
-                                    <span class="blog-details__content__list__icon"><i
-                                            class="flaticon-check"></i></span>
-                                    Continuous advisory and support
-                                </li>
-                            </ul><!-- /.blog-details__content__list -->
+                                At Tech Scalify, we follow a structured and results-driven social media marketing process:</p>
+                                  <ul class="blog-details__content__list list-unstyled" data-aos="fade-up" data-aos-duration="1500">
+                                        <li>
+                                            <span class="blog-details__content__list__icon"><i class="flaticon-check"></i></span>
+                                            Social media audit and competitive analysis
+                                        </li>
+                                        <li>
+                                            <span class="blog-details__content__list__icon"><i class="flaticon-check"></i></span>
+                                            Custom social media strategy and content calendar
+                                        </li>
+                                        <li>
+                                            <span class="blog-details__content__list__icon"><i class="flaticon-check"></i></span>
+                                            Content creation for Facebook, Instagram, LinkedIn & more
+                                        </li>
+                                        <li>
+                                            <span class="blog-details__content__list__icon"><i class="flaticon-check"></i></span>
+                                            Social media advertising (Meta Ads, LinkedIn Ads, etc.)
+                                        </li>
+                                        <li>
+                                            <span class="blog-details__content__list__icon"><i class="flaticon-check"></i></span>
+                                            Community management and engagement
+                                        </li>
+                                        <li>
+                                            <span class="blog-details__content__list__icon"><i class="flaticon-check"></i></span>
+                                            Influencer marketing and brand partnerships
+                                        </li>
+                                        <li>
+                                            <span class="blog-details__content__list__icon"><i class="flaticon-check"></i></span>
+                                            Performance tracking and ROI reporting
+                                        </li>
+                                    </ul><!-- /.blog-details__content__list -->
                         </div>
                     </div>
                 </div><!-- /.row -->
             </div><!-- /.container -->
         </section><!-- /.about-one -->
 
-        <section class="about-one">
+        <section class="about-one about-one--page">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-6 d-flex align-items-center">
                         <div class="about-one__content">
                             <div class="sec-title text-left">
 
-                                <h6 class="sec-title__tagline bw-split-text">Our Consulting Capabilities</h6>
+                                <h6 class="sec-title__tagline bw-split-text">Platform Expertise</h6>
                                 <!-- /.sec-title__tagline -->
 
-                                <h3 class="sec-title__title bw-split-text">We Think Strategically — Not Just Technically</h3><!-- /.sec-title__title -->
+                                <h2 class="sec-title__title bw-split-text">Facebook Marketing, Instagram Marketing & Beyond</h2><!-- /.sec-title__title -->
                             </div><!-- /.sec-title -->
-                            <div class="about-one__box">
-                                <div class="about-one__box__icon"><i class="flaticon-check"></i></div>
-                                <h5 class="about-one__box__title">Smarter IT Decisions That Drive Business Success</h5>
-                                <p class="about-one__box__text">
-                                    Tech Scalify is a trusted IT strategy consulting company helping businesses leverage technology for efficiency, scalability, and sustainable growth.
-                                </p>
-                            </div>
-                            <div class="about-one__box">
-                                <div class="about-one__box__icon"><i class="flaticon-check"></i></div>
-                                <h5 class="about-one__box__title">IT Strategy Consulting </h5>
-                                <p class="about-one__box__text">
-                                    We help businesses plan, optimize, and scale their IT systems with clear strategies that deliver long-term value.
-                                </p>
-                            </div>
-                            <div class="about-one__content__btn">
-                                <a href="about.php" class="lotech-btn">
-                                    <span>Explore Our Services<span class="lotech-btn__icon"><i
-                                                class="flaticon-up-right-arrow"></i><i
-                                                class="flaticon-up-right-arrow"></i></span></span>
-                                </a>
-                                <!-- <div class="about-one__content__author">
-                                                <img src="assets/images/resources/about-author-1.jpg" alt="Tech Scalify IT Consultant - Expert Technology Strategy Advisor">
-                                                <div class="about-one__content__author__content">
-                                                    <h5 class="about-one__content__author__name">Esther Howard</h5>
-                                                    <p class="about-one__content__author__text">JR Designer</p>
-                                                </div>
-                                            </div> -->
-                            </div>
+                            <p class="service-details__text" data-aos="fade-up" data-aos-duration="1500">
+                                Our social media marketing team specializes in platform-specific strategies. We deliver <strong>Facebook marketing</strong> and <strong>Instagram marketing</strong> campaigns that drive engagement and conversions. For B2B brands, we excel in <strong>LinkedIn marketing</strong> to generate leads and build professional networks. We also manage X (Twitter), YouTube, and emerging platforms to ensure comprehensive social media coverage.
+                            </p>
+                            <p class="service-details__text" data-aos="fade-up" data-aos-duration="1500">
+                                Every social media campaign is backed by analytics, A/B testing, and continuous optimization to maximize your return on investment and grow your brand presence.</p>
                         </div><!-- /.why-choose-one__content -->
                     </div><!-- /.col-xl-6 -->
                     <div class="col-xl-6 text-end">
                         <div class="about-one__image" data-speed="1.1" data-lag="0">
-                            <img src="assets/images/resources/about-1-1.jpg" alt="IT Strategy Consulting Services by Tech Scalify - Technology Consulting Experts">
-                            <!-- <div class="about-one__image__experiance count-box" data-aos="flip-up"
-                                data-aos-duration="1200" data-aos-delay="300">
-                                <h3 class="about-one__image__experiance__count"><span class="count-text" data-stop="25"
-                                        data-speeds="1500"></span>+</h3>
-                                <p class="about-one__image__experiance__text">Years Experience In Our Company</p> 
-                            </div> -->
-                        </div>
-                    </div>
+                            <img src="assets/images/resources/about-1-1.jpg" alt="Facebook Marketing and Instagram Marketing Services - Social Media Agency by Tech Scalify">
+
+                        </div><!-- /.about-one__image -->
+                    </div><!-- /.col-xl-6-->
                 </div><!-- /.row -->
             </div><!-- /.container -->
         </section><!-- /.about-one -->
+        
+        <section class="cta-one">
+            <div class="cta-one__bg jarallax" data-jarallax data-speeds="0.3" data-imgPosition="50% -100%"
+                style="background-image: url(assets/images/backgrounds/cta-bg-1-1.jpg);"></div>
+            <!-- /.cta-one__bg -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 col-xl-8 d-flex align-items-center">
+                        <div class="cta-one__content text-splite-up">
+                            <h5 class="cta-one__tagline">Data-Driven Social Media Strategy</h5>
+                            <h3 class="cta-one__title">Grow Your Brand With Professional Social Media
+                                Marketing</h3>
+                            <p class="cta-one__text">Tech Scalify is a social media marketing agency delivering strategic SMM services, content marketing, and social media advertising to boost brand awareness, engagement, and leads.</p>
+                            <a href="contact.php" class="lotech-btn">
+                                <span>Get a Quote<span class="lotech-btn__icon"><i class="flaticon-up-right-arrow"></i><i
+                                            class="flaticon-up-right-arrow"></i></span></span>
+                            </a>
+                        </div><!-- /.cta-one__content -->
+                    </div>
+                    <div class="col-lg-5 col-xl-4" data-aos="flip-right" data-aos-duration="1300" data-aos-delay="400">
+                        <div class="cta-one__box">
+                            <div class="cta-one__box__image"
+                                style="background-image: url(assets/images/resources/cta-1-1.jpg);"></div>
+                            <div class="cta-one__box__icon"><i class="flaticon-strategry"></i></div>
+                            <h4 class="cta-one__box__title">Social Media Marketing.</h4>
+                            <p class="cta-one__box__text">Strategic social media campaigns <br>
+                                for brand awareness, engagement, <br>and measurable growth.</p>
+                        </div>
+                    </div>
+                </div><!-- /.row -->
+            </div><!-- /.container-fluid -->
+        </section><!-- /.cta-one -->
 
         <?php include 'component/services.php';?>
 
@@ -246,8 +234,6 @@
     </div>
 </div>
 </div><!-- /.page-wrapper -->
-
-
 
 <div class="mobile-nav__wrapper">
     <div class="mobile-nav__overlay mobile-nav__toggler"></div>

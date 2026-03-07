@@ -1,4 +1,8 @@
-<?php include 'layout/header.php';?>
+<?php
+$page_title = 'About Us | Techscalify - IT Services & Digital Solutions';
+$page_meta_description = 'Techscalify IT Services empowers businesses through smart IT solutions, web development, cloud services, and digital transformation. Learn about our mission and team.';
+include 'layout/header.php';
+?>
 	<!-- Page Wrapper Start -->
 
 		<div id="smooth-wrapper">
@@ -10,9 +14,9 @@
 					<!-- /.page-header__bg -->
 					<div class="container">
 						<div class="page-header__content">
-							<h2 class="page-header__title">About Us</h2>
+							<h1 class="page-header__title">About Us</h1>
 							<ul class="lotech-breadcrumb list-unstyled">
-								<li><a href="index.html">Home</a></li>
+								<li><a href="index.php">Home</a></li>
 								<li><span>About Us</span></li>
 							</ul><!-- /.lotech-breadcrumb list-unstyled -->
 						</div><!-- /.page-header__content -->
@@ -50,7 +54,7 @@
 												Tech Scalify empowers businesses to build a solid digital foundation and
 												stay competitive in today’s fast-changing digital world.</p>
 											<!-- <div class="about-one__content__btn">
-												<a href="about.html" class="lotech-btn">
+												<a href="about.php" class="lotech-btn">
 													<span>Explore Our Services<span class="lotech-btn__icon"><i
 																class="flaticon-up-right-arrow"></i><i
 																class="flaticon-up-right-arrow"></i></span></span>
@@ -109,7 +113,7 @@
 												data-aos-duration="1500">
 												At Tech Scalify, we don’t just deliver services — we become your trusted technology partner for sustainable success.</p>
 											<!-- <div class="about-one__content__btn">
-												<a href="about.html" class="lotech-btn">
+												<a href="about.php" class="lotech-btn">
 													<span>Explore Our Services<span class="lotech-btn__icon"><i
 																class="flaticon-up-right-arrow"></i><i
 																class="flaticon-up-right-arrow"></i></span></span>
@@ -202,7 +206,7 @@
 									<h3 class="cta-one__title">Brief Overview Of Your Company And Its Mission.</h3>
 									<p class="cta-one__text">Maecenas fringilla massa condimentum, consectetur neque
 										vel.</p>
-									<a href="contact.html" class="lotech-btn">
+									<a href="contact.php" class="lotech-btn">
 										<span>Contact Us<span class="lotech-btn__icon"><i
 													class="flaticon-up-right-arrow"></i><i
 													class="flaticon-up-right-arrow"></i></span></span>

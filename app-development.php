@@ -1,4 +1,8 @@
-<?php include 'layout/header.php';?>
+<?php
+$page_title = 'Mobile App Development Services | Techscalify';
+$page_meta_description = 'Techscalify builds high-impact mobile applications for iOS and Android. Custom app development that engages users and drives business growth.';
+include 'layout/header.php';
+?>
 
 <div id="smooth-wrapper">
     <div id="smooth-content">
@@ -9,11 +13,11 @@
             <!-- /.page-header__bg -->
             <div class="container">
                 <div class="page-header__content">
-                    <h2 class="page-header__title">Web Development</h2>
+                    <h1 class="page-header__title">App Development</h1>
                     <ul class="lotech-breadcrumb list-unstyled">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.php">Home</a></li>
                         <li><span>Our Services</span></li>
-                        <li><span>Web Development</span></li>
+                        <li><span>App Development</span></li>
                     </ul><!-- /.lotech-breadcrumb list-unstyled -->
                 </div><!-- /.page-header__content -->
             </div><!-- /.container -->
@@ -26,37 +30,27 @@
                         <div class="about-one__content">
                             <div class="sec-title text-left">
 
-                                <h6 class="sec-title__tagline bw-split-text">Web Development Services</h6>
+                                <h6 class="sec-title__tagline bw-split-text">App Development Services</h6>
                                 <!-- /.sec-title__tagline -->
 
-                                <h3 class="sec-title__title bw-split-text">Build High-Performance Websites That Drive
-                                    Growth</h3><!-- /.sec-title__title -->
+                                <h3 class="sec-title__title bw-split-text">Designing & Developing Apps That Engage and Convert Users</h3><!-- /.sec-title__title -->
                             </div><!-- /.sec-title -->
                             <p class="service-details__text" data-aos="fade-up" data-aos-duration="1500">
-                                At Tech Scalify, we specialize in delivering modern, scalable, and high-performance web
-                                development solutions that help businesses establish a strong digital presence. Our
-                                websites are designed not only to look great but also to perform exceptionally well in
-                                terms of speed, security, usability, and search engine visibility.
+                                At Tech Scalify, we deliver modern, scalable, and high-performance mobile app development solutions that help businesses engage users and grow digitally. Our apps are designed to be visually intuitive, technically robust, and optimized for performance, security, and scalability.
                             </p>
                             <p class="service-details__text" data-aos="fade-up" data-aos-duration="1500">
-                                From startups and small businesses to growing enterprises, we create websites that align
-                                with your business goals, engage your audience, and convert visitors into loyal
-                                customers.</p>
+                               From startups and small businesses to growing enterprises, we build mobile applications that align with your business goals, enhance customer engagement, and deliver real business value across platforms.</p>
                             <div class="service-details__inner">
                                 <div class="row gutter-y-24">
                                     <div class="col-xl-6 col-lg-12 col-md-6" data-aos="fade-up" data-aos-duration="1500"
                                         data-aos-delay="100">
                                         <p class="service-details__inner__text">
-                                            Our expert developers build fast, secure, and future-ready websites using
-                                            modern technologies, ensuring seamless performance across all devices with a
-                                            mobile-first approach.</p>
+                                            Our expert app developers create fast, secure, and future-ready mobile applications using modern frameworks and technologies, ensuring smooth performance and consistent user experiences across Android, iOS, and cross-platform environments.</p>
                                     </div><!-- /.col-xl-6 col-lg-12 col-md-6 -->
                                     <div class="col-xl-6 col-lg-12 col-md-6" data-aos="fade-up" data-aos-duration="1500"
                                         data-aos-delay="200">
                                         <p class="service-details__inner__text">
-                                            We build SEO-optimized, high-performance websites with clean code and secure
-                                            architecture, ensuring better search visibility, scalability, and long-term
-                                            business growth. </p>
+                                            We develop scalable, performance-optimized mobile apps with clean architecture, secure backend integration, and app-store-ready standards—ensuring better user retention, stability, and long-term growth.</p>
                                     </div><!-- /.col-xl-6 col-lg-12 col-md-6 -->
                                 </div><!-- /.row gutter-y-24 -->
                             </div>
@@ -64,7 +58,7 @@
                     </div><!-- /.col-xl-6 -->
                     <div class="col-xl-6 text-end">
                         <div class="about-one__image" data-speed="1.1" data-lag="0">
-                            <img src="assets/images/resources/about-1-1.jpg" alt="Web Development Services by Tech Scalify - Professional Website Design and Development">
+                            <img src="assets/images/resources/about-1-1.jpg" alt="Mobile App Development Services by Tech Scalify - iOS and Android App Development">
                             <div class="about-one__image__experiance count-box" data-aos="flip-up"
                                 data-aos-duration="1200" data-aos-delay="300">
                                 <h3 class="about-one__image__experiance__count"><span class="count-text" data-stop="25"
@@ -84,47 +78,51 @@
                 <div class="row">
                     <div class="col-xl-6 ">
                         <div class="about-one__image" data-speed="1.1" data-lag="0">
-                            <img src="assets/images/resources/about-1-1.jpg" alt="Web Development Services by Tech Scalify - Professional Website Design and Development">
+                            <img src="assets/images/resources/about-1-1.jpg" alt="Mobile App Development Services by Tech Scalify - iOS and Android App Development">
 
                         </div><!-- /.about-one__image -->
                     </div>
                     <div class="col-xl-6 d-flex align-items-center">
                         <div class="about-one__content">
                             <div class="sec-title text-left">
-                                <h6 class="sec-title__tagline bw-split-text">What We Offer</h6>
-                                <h3 class="sec-title__title bw-split-text">Our Web Development Approach</h3>
+                                <h6 class="sec-title__tagline bw-split-text">Our Mobile App Development Services</h6>
+                                <h3 class="sec-title__title bw-split-text">How We Build High-Impact Mobile Applications</h3>
                                 <!-- /.sec-title__title -->
                             </div><!-- /.sec-title -->
                             <p class="service-details__text" data-aos="fade-up" data-aos-duration="1500">
-                                At Tech Scalify, we follow a structured and results-driven development process:</p>
+                               At Tech Scalify, we follow a structured and results-driven app development process:</p>
                                   <ul class="blog-details__content__list list-unstyled" data-aos="fade-up" data-aos-duration="1500">
                                         <li>
                                             <span class="blog-details__content__list__icon"><i class="flaticon-check"></i></span>
-                                           In-depth business requirement analysis
+                                          Detailed business analysis and app planning
                                         </li>
                                         <li>
                                             <span class="blog-details__content__list__icon"><i class="flaticon-check"></i></span>
-                                            Clean, scalable, and secure development
+                                            User-centric UI/UX design for better engagement
                                         </li>
                                         <li>
                                             <span class="blog-details__content__list__icon"><i class="flaticon-check"></i></span>
-                                            User-focused UI/UX design planning
+                                            Native and cross-platform mobile app development
                                         </li>
                                         <li>
                                             <span class="blog-details__content__list__icon"><i class="flaticon-check"></i></span>
-                                            Speed, performance, and responsiveness optimization
+                                           Secure backend architecture and API integration
                                         </li>
                                         <li>
                                             <span class="blog-details__content__list__icon"><i class="flaticon-check"></i></span>
-                                            SEO-friendly structure and best practices
+                                            Performance tuning and scalability optimization
                                         </li>
                                         <li>
                                             <span class="blog-details__content__list__icon"><i class="flaticon-check"></i></span>
-                                            Thorough testing and quality assurance
+                                            App store guidelines compliance and smooth deployment
                                         </li>
                                         <li>
                                             <span class="blog-details__content__list__icon"><i class="flaticon-check"></i></span>
-                                            Smooth deployment and ongoing support
+                                           Comprehensive testing and quality assurance
+                                        </li>
+                                         <li>
+                                            <span class="blog-details__content__list__icon"><i class="flaticon-check"></i></span>
+                                           Continuous maintenance, updates, and technical support
                                         </li>
                                     </ul><!-- /.blog-details__content__list -->
                         </div>
@@ -141,13 +139,10 @@
                 <div class="row">
                     <div class="col-lg-7 col-xl-8 d-flex align-items-center">
                         <div class="cta-one__content text-splite-up">
-                            <h5 class="cta-one__tagline">We Carry More Than Just Good Coding Skills</h5>
-                            <h3 class="cta-one__title">Building Powerful Web Solutions <br> That Drive Business
-                                Growth</h3>
-                            <p class="cta-one__text">Tech Scalify is a modern web development company delivering
-                                fast, scalable,
-                                and SEO-optimized websites designed to convert visitors into customers.</p>
-                            <a href="contact.html" class="lotech-btn">
+                            <h5 class="cta-one__tagline">More Than Apps — We Build Digital Products That Scale</h5>
+                            <h3 class="cta-one__title">Smart App Solutions for Growing Businesses</h3>
+                            <p class="cta-one__text">Tech Scalify is a forward-thinking app development company delivering secure, scalable, and user-centric mobile applications designed to drive engagement, improve efficiency, and fuel long-term growth.</p>
+                            <a href="contact.php" class="lotech-btn">
                                 <span>Contact Us<span class="lotech-btn__icon"><i class="flaticon-up-right-arrow"></i><i
                                             class="flaticon-up-right-arrow"></i></span></span>
                             </a>
@@ -158,9 +153,8 @@
                             <div class="cta-one__box__image"
                                 style="background-image: url(assets/images/resources/cta-1-1.jpg);"></div>
                             <div class="cta-one__box__icon"><i class="flaticon-strategry"></i></div>
-                            <h4 class="cta-one__box__title">Web Development.</h4>
-                            <p class="cta-one__box__text">We build fast, responsive websites <br>
-                                optimized for performance, user <br>experience, and SEO.</p>
+                            <h4 class="cta-one__box__title">App Development.</h4>
+                            <p class="cta-one__box__text">Fast, reliable mobile apps <br>optimized for performance, user experience, <br>and cross-platform scalability.</p>
                         </div>
                     </div>
                 </div><!-- /.row -->

@@ -1,4 +1,8 @@
-<?php include 'layout/header.php';?>
+<?php
+$page_title = 'Techscalify | Web Development & Software Development Company';
+$page_meta_description = 'Techscalify provides professional web development, software development, digital marketing, and IT consulting services for startups and businesses.';
+include 'layout/header.php';
+?>
 
 <div id="smooth-wrapper">
     <div id="smooth-content">
@@ -12,16 +16,15 @@
                     <div class="row d-flex align-items-center">
                         <div class="col-md-9">
                             <div class="hero-banner-one__content">
-                                <h3 class="hero-banner-one__title">
+                                <h1 class="hero-banner-one__title">
                                     Leading Global <span>IT Services.</span>
-                                    <!--need optimize -->
-                                </h3>
+                                </h1>
                                 <p class="hero-banner-one__text">
                                     Tech Scalify is a trusted IT services company delivering scalable, secure, and
                                     innovative digital solutions to help businesses grow faster. From cloud computing to
                                     custom software development, we transform ideas into powerful technology.
                                 </p>
-                                <a href="services.html" class="lotech-btn">
+                                <a href="index.php#services" class="lotech-btn">
                                     <span>Explore Our Services<span class="lotech-btn__icon"><i
                                                 class="flaticon-up-right-arrow"></i><i
                                                 class="flaticon-up-right-arrow"></i></span></span>
@@ -186,13 +189,13 @@
             </section><!-- /.about-one -->
 
             <!-- Service Start -->
-            <section class="service-one">
+            <section id="services" class="service-one">
                 <div class="container">
                     <div class="sec-title text-center">
 
                         <h6 class="sec-title__tagline bw-split-text">Services List</h6><!-- /.sec-title__tagline -->
 
-                        <h3 class="sec-title__title bw-split-text">Explore Our Services</h3><!-- /.sec-title__title -->
+                                <h2 class="sec-title__title bw-split-text">Explore Our Services</h2><!-- /.sec-title__title -->
                     </div><!-- /.sec-title -->
 
 
@@ -228,13 +231,13 @@
                                 </div>
                                 <div class="service-one__item__icon"><i class="flaticon-consulting"></i></div>
                                 <!-- /.service-icon -->
-                                <h3 class="service-one__item__title">
-                                    <a href="service-d-consulting.html">Web Development</a>
-                                </h3><!-- /.service-title -->
+                                <h2 class="service-one__item__title">
+                                    <a href="web-development.php">Web Development</a>
+                                </h2><!-- /.service-title -->
                                 <p class="service-one__item__text">We build fast, responsive, and scalable websites
                                     using modern technologies to improve user experience, performance, and search engine
                                     rankings.</p><!-- /.service-text -->
-                                <a href="service-d-consulting.html" class="service-one__item__btn">
+                                <a href="web-development.php" class="service-one__item__btn">
                                     <span class="service-one__item__btn__text">Read More</span>
                                     <span class="service-one__item__btn__icon"><i class="flaticon-up-right-arrow"></i><i
                                             class="flaticon-up-right-arrow"></i></span>
@@ -249,13 +252,13 @@
                                 </div>
                                 <div class="service-one__item__icon"><i class="flaticon-inteligence"></i></div>
                                 <!-- /.service-icon -->
-                                <h3 class="service-one__item__title">
-                                    <a href="service-d-intelligence.html">Software Development</a>
-                                </h3><!-- /.service-title -->
+                                <h2 class="service-one__item__title">
+                                    <a href="software-development.php">Software Development</a>
+                                </h2><!-- /.service-title -->
                                 <p class="service-one__item__text">Custom software solutions designed to streamline
                                     operations, improve efficiency, and support long-term business growth across web and
                                     mobile platforms.</p><!-- /.service-text -->
-                                <a href="service-d-intelligence.html" class="service-one__item__btn">
+                                <a href="software-development.php" class="service-one__item__btn">
                                     <span class="service-one__item__btn__text">Read More</span>
                                     <span class="service-one__item__btn__icon"><i class="flaticon-up-right-arrow"></i><i
                                             class="flaticon-up-right-arrow"></i></span>
@@ -270,13 +273,13 @@
                                 </div>
                                 <div class="service-one__item__icon"><i class="flaticon-management"></i></div>
                                 <!-- /.service-icon -->
-                                <h3 class="service-one__item__title">
-                                    <a href="service-d-management.html">SEO & Digital Marketing</a>
-                                </h3><!-- /.service-title -->
+                                <h2 class="service-one__item__title">
+                                    <a href="search-optimization.php">SEO & Digital Marketing</a>
+                                </h2><!-- /.service-title -->
                                 <p class="service-one__item__text">Data-driven SEO and digital marketing strategies that
                                     increase website traffic, improve search rankings, and generate high-quality leads.
                                 </p><!-- /.service-text -->
-                                <a href="service-d-management.html" class="service-one__item__btn">
+                                <a href="search-optimization.php" class="service-one__item__btn">
                                     <span class="service-one__item__btn__text">Read More</span>
                                     <span class="service-one__item__btn__icon"><i class="flaticon-up-right-arrow"></i><i
                                             class="flaticon-up-right-arrow"></i></span>
@@ -291,13 +294,13 @@
                                 </div>
                                 <div class="service-one__item__icon"><i class="flaticon-support"></i></div>
                                 <!-- /.service-icon -->
-                                <h3 class="service-one__item__title">
-                                    <a href="service-d-support.html">Social Media Marketing</a>
-                                </h3><!-- /.service-title -->
+                                <h2 class="service-one__item__title">
+                                    <a href="social-media-marketing.php">Social Media Marketing</a>
+                                </h2><!-- /.service-title -->
                                 <p class="service-one__item__text">Strategic social media marketing that builds brand
                                     awareness, engages audiences, and drives measurable business growth across
                                     platforms.</p><!-- /.service-text -->
-                                <a href="service-d-support.html" class="service-one__item__btn">
+                                <a href="social-media-marketing.php" class="service-one__item__btn">
                                     <span class="service-one__item__btn__text">Read More</span>
                                     <span class="service-one__item__btn__icon"><i class="flaticon-up-right-arrow"></i><i
                                             class="flaticon-up-right-arrow"></i></span>
@@ -312,13 +315,13 @@
                                 </div>
                                 <div class="service-one__item__icon"><i class="flaticon-network"></i></div>
                                 <!-- /.service-icon -->
-                                <h3 class="service-one__item__title">
-                                    <a href="service-d-network.html">IT Strategy Consulting</a>
-                                </h3><!-- /.service-title -->
+                                <h2 class="service-one__item__title">
+                                    <a href="it-consulting.php">IT Strategy Consulting</a>
+                                </h2><!-- /.service-title -->
                                 <p class="service-one__item__text">Expert IT strategy consulting to align technology
                                     with business goals, improve scalability, and enable digital transformation.</p>
                                 <!-- /.service-text -->
-                                <a href="service-d-network.html" class="service-one__item__btn">
+                                <a href="it-consulting.php" class="service-one__item__btn">
                                     <span class="service-one__item__btn__text">Read More</span>
                                     <span class="service-one__item__btn__icon"><i class="flaticon-up-right-arrow"></i><i
                                             class="flaticon-up-right-arrow"></i></span>
@@ -334,12 +337,12 @@
                                 <div class="service-one__item__icon"><i class="flaticon-mobile"></i></div>
                                 <!-- /.service-icon -->
                                 <h3 class="service-one__item__title">
-                                    <a href="service-d-software.html">Technical Support & Managed IT</a>
+                                    <a href="technical-support.php">Technical Support & Managed IT</a>
                                 </h3><!-- /.service-title -->
                                 <p class="service-one__item__text">Reliable 24/7 technical support and managed IT
                                     services to ensure system stability, security, and uninterrupted business
                                     operations.</p><!-- /.service-text -->
-                                <a href="service-d-software.html" class="service-one__item__btn">
+                                <a href="technical-support.php" class="service-one__item__btn">
                                     <span class="service-one__item__btn__text">Read More</span>
                                     <span class="service-one__item__btn__icon"><i class="flaticon-up-right-arrow"></i><i
                                             class="flaticon-up-right-arrow"></i></span>
@@ -350,7 +353,7 @@
                     </div>
 
                     <div class="service-one__text" data-aos="fade-up" data-aos-duration="1600" data-aos-delay="500">
-                        IT services built specifically for your business : <a href="services.html">Find your
+                        IT services built specifically for your business : <a href="index.php#services">Find your
                             solution</a>
                     </div>
                 </div>
@@ -371,7 +374,7 @@
                                 <p class="cta-one__text">Tech Scalify is a modern web development company delivering
                                     fast, scalable,
                                     and SEO-optimized websites designed to convert visitors into customers.</p>
-                                <a href="contact.html" class="lotech-btn">
+                                <a href="contact.php" class="lotech-btn">
                                     <span>Contact Us<span class="lotech-btn__icon"><i
                                                 class="flaticon-up-right-arrow"></i><i
                                                 class="flaticon-up-right-arrow"></i></span></span>
@@ -613,14 +616,14 @@
                             <div class="portfolio-one__item">
                                 <img src="assets/images/folio/folio-1-1.jpg" alt="High-Performance Business Website Development by Tech Scalify">
                                 <div class="portfolio-one__item__rm">
-                                    <a href="case-study-details-right.html">
+                                    <a href="index.php#services">
                                         <span><i class="flaticon-up-right-arrow"></i><i
                                                 class="flaticon-up-right-arrow"></i></span>
                                     </a>
                                 </div>
                                 <div class="portfolio-one__item__content">
                                     <h3 class="portfolio-one__item__title"><a
-                                            href="case-study-details-right.html">High-Performance Business Website</a>
+                                            href="index.php#services">High-Performance Business Website</a>
                                     </h3>
                                     <p class="portfolio-one__item__meta">Technology</p>
                                 </div>
@@ -630,14 +633,14 @@
                             <div class="portfolio-one__item">
                                 <img src="assets/images/folio/folio-1-2.jpg" alt="SEO and Digital Marketing Success - Increased Organic Traffic by Tech Scalify">
                                 <div class="portfolio-one__item__rm">
-                                    <a href="case-study-details-right.html">
+                                    <a href="search-optimization.php">
                                         <span><i class="flaticon-up-right-arrow"></i><i
                                                 class="flaticon-up-right-arrow"></i></span>
                                     </a>
                                 </div>
                                 <div class="portfolio-one__item__content">
                                     <h3 class="portfolio-one__item__title"><a
-                                            href="case-study-details-right.html">Increased Organic Traffic & Leads</a>
+                                            href="search-optimization.php">Increased Organic Traffic & Leads</a>
                                     </h3>
                                     <p class="portfolio-one__item__meta">Technology</p>
                                 </div>
@@ -647,14 +650,14 @@
                             <div class="portfolio-one__item">
                                 <img src="assets/images/folio/folio-1-3.jpg" alt="Custom Software Development and Business Automation Solutions by Tech Scalify">
                                 <div class="portfolio-one__item__rm">
-                                    <a href="case-study-details-right.html">
+                                    <a href="software-development.php">
                                         <span><i class="flaticon-up-right-arrow"></i><i
                                                 class="flaticon-up-right-arrow"></i></span>
                                     </a>
                                 </div>
                                 <div class="portfolio-one__item__content">
                                     <h3 class="portfolio-one__item__title"><a
-                                            href="case-study-details-right.html">Custom Software for Business
+                                            href="software-development.php">Custom Software for Business
                                             Automation</a></h3>
                                     <p class="portfolio-one__item__meta">Technology</p>
                                 </div>
@@ -664,13 +667,13 @@
                             <div class="portfolio-one__item">
                                 <img src="assets/images/folio/folio-1-4.jpg" alt="24/7 Managed IT Services and System Stability Solutions by Tech Scalify">
                                 <div class="portfolio-one__item__rm">
-                                    <a href="case-study-details-right.html">
+                                    <a href="technical-support.php">
                                         <span><i class="flaticon-up-right-arrow"></i><i
                                                 class="flaticon-up-right-arrow"></i></span>
                                     </a>
                                 </div>
                                 <div class="portfolio-one__item__content">
-                                    <h3 class="portfolio-one__item__title"><a href="case-study-details-right.html">24/7
+                                    <h3 class="portfolio-one__item__title"><a href="technical-support.php">24/7
                                             Managed IT & System Stability</a></h3>
                                     <p class="portfolio-one__item__meta">Technology</p>
                                 </div>
@@ -680,7 +683,7 @@
                     </div>
                 </div>
                 <div class="portfolio-one__btn" data-aos="flip-right" data-aos-duration="1400" data-aos-delay="300">
-                    <a href="portfolio.html" class="lotech-btn">
+                    <a href="index.php#services" class="lotech-btn">
                         <span>View All Portfolio<span class="lotech-btn__icon"><i class="flaticon-up-right-arrow"></i><i
                                     class="flaticon-up-right-arrow"></i></span></span>
                     </a>
@@ -703,7 +706,7 @@
                         </div>
                         <div class="col-md-4" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="00">
                             <div class="blog-one__btn">
-                                <a href="blog-list-right.html" class="lotech-btn">
+                                <a href="index.php" class="lotech-btn">
                                     <span>View All<span class="lotech-btn__icon"><i
                                                 class="flaticon-up-right-arrow"></i><i
                                                 class="flaticon-up-right-arrow"></i></span></span>
@@ -715,7 +718,7 @@
                         <div class="col-lg-4 col-md-6">
                             <div class="blog-card" data-aos='flip-up' data-aos-duration='1300' data-aos-delay='100'>
                                 <div class="blog-card__image">
-                                    <a href="blog-details-right.html">
+                                    <a href="index.php">
                                         <img src="assets/images/blog/blog-1-1.jpg"
                                             alt="Businesses are increasingly adopting hybrid and multi-cloud strategies.">
                                         <img src="assets/images/blog/blog-1-1.jpg"
@@ -725,22 +728,22 @@
                                 </div><!-- /.blog-card__image -->
                                 <div class="blog-card__content">
                                     <ul class="list-unstyled blog-card__meta">
-                                        <li><i class="flaticon-price-tag"></i><a href="blog-list.html">Technology</a>
+                                        <li><i class="flaticon-price-tag"></i><a href="index.php">Technology</a>
                                         </li>
                                         <li><i class="flaticon-chat"></i>0 Comments</li>
                                     </ul><!-- /.list-unstyled blog-card__meta -->
-                                    <h3 class="blog-card__title"><a href="blog-details-right.html">Businesses Are
+                                    <h3 class="blog-card__title"><a href="index.php">Businesses Are
                                             Increasingly Adopting Hybrid and Multi-Cloud Strategies</a></h3>
                                     <!-- /.blog-card__title -->
                                     <div class="blog-card__author"><i class="flaticon-user-two"></i><a
-                                            href="blog-list.html">Brooklyn Simmons</a></div>
+                                            href="index.php">Brooklyn Simmons</a></div>
                                 </div><!-- /.blog-card__content -->
                             </div><!-- /.blog-card -->
                         </div><!-- col-lg-4 col-md-6 -->
                         <div class="col-lg-4 col-md-6">
                             <div class="blog-card" data-aos='flip-up' data-aos-duration='1400' data-aos-delay='250'>
                                 <div class="blog-card__image">
-                                    <a href="blog-details-right.html">
+                                    <a href="index.php">
                                         <img src="assets/images/blog/blog-1-2.jpg"
                                             alt="Implementing proactive monitoring tools allows you to detect.">
                                         <img src="assets/images/blog/blog-1-2.jpg"
@@ -750,22 +753,22 @@
                                 </div><!-- /.blog-card__image -->
                                 <div class="blog-card__content">
                                     <ul class="list-unstyled blog-card__meta">
-                                        <li><i class="flaticon-price-tag"></i><a href="blog-list.html">Technology</a>
+                                        <li><i class="flaticon-price-tag"></i><a href="index.php">Technology</a>
                                         </li>
                                         <li><i class="flaticon-chat"></i>0 Comments</li>
                                     </ul><!-- /.list-unstyled blog-card__meta -->
-                                    <h3 class="blog-card__title"><a href="blog-details-right.html">Implementing
+                                    <h3 class="blog-card__title"><a href="index.php">Implementing
                                             Proactive Monitoring Tools to Prevent IT Downtime</a></h3>
                                     <!-- /.blog-card__title -->
                                     <div class="blog-card__author"><i class="flaticon-user-two"></i><a
-                                            href="blog-list.html">Wade Warren</a></div>
+                                            href="index.php">Wade Warren</a></div>
                                 </div><!-- /.blog-card__content -->
                             </div><!-- /.blog-card -->
                         </div><!-- col-lg-4 col-md-6 -->
                         <div class="col-lg-4 col-md-6">
                             <div class="blog-card" data-aos='flip-up' data-aos-duration='1500' data-aos-delay='350'>
                                 <div class="blog-card__image">
-                                    <a href="blog-details-right.html">
+                                    <a href="index.php">
                                         <img src="assets/images/blog/blog-1-3.jpg"
                                             alt="A comprehensive disaster recovery plan is essential to minimize.">
                                         <img src="assets/images/blog/blog-1-3.jpg"
@@ -775,15 +778,15 @@
                                 </div><!-- /.blog-card__image -->
                                 <div class="blog-card__content">
                                     <ul class="list-unstyled blog-card__meta">
-                                        <li><i class="flaticon-price-tag"></i><a href="blog-list.html">Technology</a>
+                                        <li><i class="flaticon-price-tag"></i><a href="index.php">Technology</a>
                                         </li>
                                         <li><i class="flaticon-chat"></i>0 Comments</li>
                                     </ul><!-- /.list-unstyled blog-card__meta -->
-                                    <h3 class="blog-card__title"><a href="blog-details-right.html">Why a Strong Disaster
+                                    <h3 class="blog-card__title"><a href="index.php">Why a Strong Disaster
                                             Recovery Plan Is Essential for Business Stability</a></h3>
                                     <!-- /.blog-card__title -->
                                     <div class="blog-card__author"><i class="flaticon-user-two"></i><a
-                                            href="blog-list.html">Dianne Russell</a></div>
+                                            href="index.php">Dianne Russell</a></div>
                                 </div><!-- /.blog-card__content -->
                             </div><!-- /.blog-card -->
                         </div><!-- col-lg-4 col-md-6 -->

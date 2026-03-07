@@ -2,17 +2,62 @@
 <html lang="en">
 
 
+<?php
+if (!isset($page_title)) {
+    $page_title = 'Techscalify | Web Development & Software Development Company';
+}
+if (!isset($page_meta_description)) {
+    $page_meta_description = 'Techscalify provides professional web development, software development, digital marketing, and IT consulting services for startups and businesses.';
+}
+$site_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . '://' . ($_SERVER['HTTP_HOST'] ?? 'localhost') . dirname($_SERVER['SCRIPT_NAME'] ?? '');
+$site_url = rtrim(str_replace('\\', '/', $site_url), '/');
+?>
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home || Techscalify || IT Services & IT Solutions</title>
+    <title><?php echo htmlspecialchars($page_title); ?></title>
     <!-- favicons Icons -->
-    
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
-    <link rel="icon" type="img/techscalify.png" sizes="32x32" href="img/techscalify.png" />
-    <link rel="icon" type="img/techscalify.png" sizes="16x16" href="img/techscalify.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="img/techscalify.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="img/techscalify.png" />
     <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
-    <meta name="description" content="Tech Scalify is a leading IT services company delivering scalable, secure, and innovative digital solutions. From web development and cloud computing to SEO and managed IT services, we help businesses grow faster with cutting-edge technology." />
+    <meta name="description" content="<?php echo htmlspecialchars($page_meta_description); ?>" />
+    <!-- Organization Schema (SEO) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Techscalify IT Services",
+        "url": "<?php echo htmlspecialchars($site_url); ?>",
+        "logo": "<?php echo htmlspecialchars($site_url); ?>/img/techscalify.png",
+        "description": "Techscalify provides professional web development, software development, digital marketing, and IT consulting services for startups and businesses.",
+        "sameAs": [
+            "https://facebook.com/",
+            "https://x.com/",
+            "https://instagram.com/",
+            "https://www.youtube.com/"
+        ],
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+91-871-787-2372",
+            "contactType": "customer service",
+            "email": "techscalify@gmail.com",
+            "areaServed": "IN"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Raipur",
+            "addressRegion": "Chhattisgarh",
+            "addressCountry": "IN"
+        },
+        "service": [
+            { "@type": "Service", "name": "Web Development" },
+            { "@type": "Service", "name": "Software Development" },
+            { "@type": "Service", "name": "Digital Marketing" },
+            { "@type": "Service", "name": "IT Consulting" }
+        ]
+    }
+    </script>
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com/">
@@ -92,7 +137,7 @@
                     <a href="#" class="topbar__toggler main-header__toggler"><i><span></span><span></span><span></span></i>Menu</a>
                     <div class="topbar__logo">
                         <a href="index.php">
-                            <img src="img/white.png" alt="Tech Scalify - Leading IT Services and Digital Solutions Company" width="133">
+                            <img src="img/tech_scalify_lg.png" alt="Tech Scalify - Leading IT Services and Digital Solutions Company" width="133">
                         </a>
                     </div>
                     <div class="topbar__social">
@@ -132,13 +177,13 @@
                             <li class="dropdown">
                                 <a href="#" data-title="Services"><span>Services</span></a>
                                 <ul>
-                                    <li><a href="service-web-development.php">Web Development</a></li>
-                                    <li><a href="service-app-development.php">App Development</a></li>
-                                    <li><a href="service-software-development.php">Software Development</a></li>
-                                    <li><a href="service-it-consulting.php">IT Strategy Consulting</a></li>
-                                    <li><a href="service-search-optimization.php">Search Growth Optimization</a></li>
-                                    <li><a href="service-social-media-marketing.php">Social Media Marketing</a></li>
-                                    <li><a href="service-technical-support.php">Technical Support</a></li>
+                                    <li><a href="web-development.php">Web Development</a></li>
+                                    <li><a href="app-development.php">App Development</a></li>
+                                    <li><a href="software-development.php">Software Development</a></li>
+                                    <li><a href="it-consulting.php">IT Strategy Consulting</a></li>
+                                    <li><a href="search-optimization.php">Search Growth Optimization</a></li>
+                                    <li><a href="social-media-marketing.php">Social Media Marketing</a></li>
+                                    <li><a href="technical-support.php">Technical Support</a></li>
                                     <!-- <li><a href="service-d-management.html">Cloud Management</a></li> -->
                                 </ul>
                             </li>

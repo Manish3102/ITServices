@@ -45,14 +45,14 @@
 											</div>
 											<!-- /.service-icon -->
 											<h3 class="service-one__item__title">
-												<a href="service-d-consulting.html">Web Development</a>
+												<a href="web-development.php">Web Development</a>
 											</h3><!-- /.service-title -->
 											<p class="service-one__item__text">We build fast, responsive, and scalable
 												websites
 												using modern technologies to improve user experience, performance, and
 												search engine
 												rankings.</p><!-- /.service-text -->
-											<a href="service-d-consulting.html" class="service-one__item__btn">
+											<a href="web-development.php" class="service-one__item__btn">
 												<span class="service-one__item__btn__text">Read More</span>
 												<span class="service-one__item__btn__icon"><i
 														class="flaticon-up-right-arrow"></i><i
@@ -70,14 +70,14 @@
 											</div>
 											<!-- /.service-icon -->
 											<h3 class="service-one__item__title">
-												<a href="service-d-intelligence.html">Software Development</a>
+												<a href="software-development.php">Software Development</a>
 											</h3><!-- /.service-title -->
 											<p class="service-one__item__text">Custom software solutions designed to
 												streamline
 												operations, improve efficiency, and support long-term business growth
 												across web and
 												mobile platforms.</p><!-- /.service-text -->
-											<a href="service-d-intelligence.html" class="service-one__item__btn">
+											<a href="software-development.php" class="service-one__item__btn">
 												<span class="service-one__item__btn__text">Read More</span>
 												<span class="service-one__item__btn__icon"><i
 														class="flaticon-up-right-arrow"></i><i
@@ -95,14 +95,14 @@
 											</div>
 											<!-- /.service-icon -->
 											<h3 class="service-one__item__title">
-												<a href="service-d-management.html">SEO & Digital Marketing</a>
+												<a href="search-optimization.php">SEO & Digital Marketing</a>
 											</h3><!-- /.service-title -->
 											<p class="service-one__item__text">Data-driven SEO and digital marketing
 												strategies that
 												increase website traffic, improve search rankings, and generate
 												high-quality leads.
 											</p><!-- /.service-text -->
-											<a href="service-d-management.html" class="service-one__item__btn">
+											<a href="search-optimization.php" class="service-one__item__btn">
 												<span class="service-one__item__btn__text">Read More</span>
 												<span class="service-one__item__btn__icon"><i
 														class="flaticon-up-right-arrow"></i><i
@@ -119,14 +119,14 @@
 											<div class="service-one__item__icon"><i class="flaticon-support"></i></div>
 											<!-- /.service-icon -->
 											<h3 class="service-one__item__title">
-												<a href="service-d-support.html">Social Media Marketing</a>
+												<a href="social-media-marketing.php">Social Media Marketing</a>
 											</h3><!-- /.service-title -->
 											<p class="service-one__item__text">Strategic social media marketing that
 												builds brand
 												awareness, engages audiences, and drives measurable business growth
 												across
 												platforms.</p><!-- /.service-text -->
-											<a href="service-d-support.html" class="service-one__item__btn">
+											<a href="social-media-marketing.php" class="service-one__item__btn">
 												<span class="service-one__item__btn__text">Read More</span>
 												<span class="service-one__item__btn__icon"><i
 														class="flaticon-up-right-arrow"></i><i
@@ -143,14 +143,14 @@
 											<div class="service-one__item__icon"><i class="flaticon-network"></i></div>
 											<!-- /.service-icon -->
 											<h3 class="service-one__item__title">
-												<a href="service-d-network.html">IT Strategy Consulting</a>
+												<a href="it-consulting.php">IT Strategy Consulting</a>
 											</h3><!-- /.service-title -->
 											<p class="service-one__item__text">Expert IT strategy consulting to align
 												technology
 												with business goals, improve scalability, and enable digital
 												transformation.</p>
 											<!-- /.service-text -->
-											<a href="service-d-network.html" class="service-one__item__btn">
+											<a href="it-consulting.php" class="service-one__item__btn">
 												<span class="service-one__item__btn__text">Read More</span>
 												<span class="service-one__item__btn__icon"><i
 														class="flaticon-up-right-arrow"></i><i
@@ -167,14 +167,14 @@
 											<div class="service-one__item__icon"><i class="flaticon-mobile"></i></div>
 											<!-- /.service-icon -->
 											<h3 class="service-one__item__title">
-												<a href="service-d-software.html">Technical Support & Managed IT</a>
+												<a href="technical-support.php">Technical Support & Managed IT</a>
 											</h3><!-- /.service-title -->
 											<p class="service-one__item__text">Reliable 24/7 technical support and
 												managed IT
 												services to ensure system stability, security, and uninterrupted
 												business
 												operations.</p><!-- /.service-text -->
-											<a href="service-d-software.html" class="service-one__item__btn">
+											<a href="technical-support.php" class="service-one__item__btn">
 												<span class="service-one__item__btn__text">Read More</span>
 												<span class="service-one__item__btn__icon"><i
 														class="flaticon-up-right-arrow"></i><i
@@ -187,7 +187,7 @@
 
 								<div class="service-one__text" data-aos="fade-up" data-aos-duration="1600"
 									data-aos-delay="500">
-									IT services built specifically for your business : <a href="services.html">Find your
+									IT services built specifically for your business : <a href="index.php#services">Find your
 										solution</a>
 								</div>
 							</div>

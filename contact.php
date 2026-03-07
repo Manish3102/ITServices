@@ -1,4 +1,8 @@
-<?php include 'layout/header.php';?>
+<?php
+$page_title = 'Contact Us | Techscalify';
+$page_meta_description = 'Get in touch with Techscalify for web development, software development, IT consulting, and digital marketing. Phone, email, and location in Raipur, India.';
+include 'layout/header.php';
+?>
 
         <div id="smooth-wrapper">
             <div id="smooth-content">
@@ -7,9 +11,9 @@
                     <div class="page-header__bg" style="background-image: url(assets/images/backgrounds/page-header-contact-bg.jpg);"></div><!-- /.page-header__bg -->
                     <div class="container">
                         <div class="page-header__content">
-                            <h2 class="page-header__title">contact us</h2>
+                            <h1 class="page-header__title">Contact Us</h1>
                             <ul class="lotech-breadcrumb list-unstyled">
-                                <li><a href="index.html">Home</a></li>
+                                <li><a href="index.php">Home</a></li>
                                 <li><span>Contact Us</span></li>
                             </ul><!-- /.lotech-breadcrumb list-unstyled -->
                         </div><!-- /.page-header__content -->
@@ -73,37 +77,49 @@
                                     <p class="contact-three__wrapper__text text-splite-up">
                                         Have a project in mind or need expert guidance for your business? <br> Reach out to us and let’s discuss how Tech Scalify can deliver reliable, scalable, and result-driven IT solutions tailored to your needs.
                                     </p>
-                                    <form class="contact-three__form contact-form-validated form-one" action="https://bracketweb.com/lotech-html/inc/sendemail.php" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="300">
+                                    <form class="contact-three__form form-one" action="https://getform.io/f/mxje5i6bwz4" method="POST" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="300">
+                                        <!-- Honeypot: hidden from users, bots may fill it -->
+                                        <div style="position: absolute; left: -5000px; width: 1px; height: 1px; overflow: hidden;" aria-hidden="true">
+                                            <input type="text" name="_gotcha" tabindex="-1" autocomplete="off">
+                                        </div>
+                                        <input type="hidden" name="_redirect" value="https://techscalify.infinityfreeapp.com/contact.php?submitted=1">
                                         <div class="form-one__group">
                                             <div class="form-one__control">
-                                                <input type="text" name="name" placeholder="Your Name*">
+                                                <input type="text" name="fi-sender-fullName" placeholder="Your Name*" required>
                                             </div><!-- /.form-one__control -->
                                             <div class="form-one__control">
-                                                <input type="email" name="email" placeholder="E-mail Address*">
+                                                <input type="email" name="fi-sender-email" placeholder="E-mail Address*" required>
                                             </div><!-- /.form-one__control -->
                                             <div class="form-one__control">
-                                                <input type="tel" name="phone" placeholder="Phone Number*">
+                                                <input type="text" name="fi-text-phone" placeholder="Phone Number" inputmode="tel">
                                             </div><!-- /.form-one__control -->
                                             <div class="form-one__control">
                                                 <div class="form-one__control__select">
-                                                    <label class="sr-only" for="your-problem">Your Problem*</label>
-                                                    <select class="selectpicker" id="your-problem">
-                                                        <option value="problem">Your problem*</option>
-                                                        <option value="problem 01">Your problem 01</option>
-                                                        <option value="problem 02">Your problem 02</option>
-                                                        <option value="problem 03">Your problem 03</option>
+                                                    <label class="sr-only" for="subject">Subject*</label>
+                                                    <select class="form-control" id="subject" name="fi-select-subject" required>
+                                                        <option value="">Your subject*</option>
+                                                        <option value="General Enquiry">General Enquiry</option>
+                                                        <option value="Web Development">Web Development</option>
+                                                        <option value="App Development">App Development</option>
+                                                        <option value="IT Consulting">IT Consulting</option>
+                                                        <option value="Technical Support">Technical Support</option>
+                                                        <option value="Other">Other</option>
                                                     </select>
                                                 </div><!-- /.main-menu__service -->
                                             </div><!-- /.form-one__control -->
                                             <div class="form-one__control form-one__control--full">
-                                                <textarea name="message" placeholder="Write message"></textarea>
+                                                <textarea name="fi-text-message" placeholder="Write message" required></textarea>
                                             </div><!-- /.form-one__control -->
                                             <div class="form-one__control form-one__control--full">
                                                 <button type="submit" class="lotech-btn"><span>Send Message<span class="lotech-btn__icon"><i class="flaticon-up-right-arrow"></i><i class="flaticon-up-right-arrow"></i></span></span></button>
                                             </div><!-- /.form-one__control -->
                                         </div><!-- /.form-one__group -->
                                     </form>
+                                    <?php if (!empty($_GET['submitted']) && $_GET['submitted'] === '1'): ?>
+                                    <div class="result"><div class="alert alert-success"><strong>Thank you!</strong> Your message has been sent successfully. We will get back to you soon.</div></div>
+                                    <?php else: ?>
                                     <div class="result"></div><!-- /.result -->
+                                    <?php endif; ?>
                                 </div>
                             </div><!-- /.col-xl-8 col-lg-7 -->
                             <div class="col-xl-4 col-lg-5" data-aos="fade-up" data-aos-duration="1500">
