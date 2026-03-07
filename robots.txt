@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /assets/vendors/
+Disallow: /scripts/
+
+# Sitemap
+Sitemap: https://yoursite.com/ITServices/sitemap.xml
+

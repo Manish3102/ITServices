@@ -160,7 +160,7 @@
                                                     class="flaticon-up-right-arrow"></i></span></span>
                                     </a>
                                     <!-- <div class="about-one__content__author">
-                                                <img src="assets/images/resources/about-author-1.jpg" alt="Tech Scalify">
+                                                <img src="assets/images/resources/about-author-1.jpg" alt="lotech">
                                                 <div class="about-one__content__author__content">
                                                     <h5 class="about-one__content__author__name">Esther Howard</h5>
                                                     <p class="about-one__content__author__text">JR Designer</p>
@@ -847,8 +847,8 @@
         <span class="mobile-nav__close mobile-nav__toggler"><i class="flaticon-close"></i></span>
 
         <div class="logo-box">
-            <a href="index.html" aria-label="logo image"><img src="img/tech_scalify_lg.png" width="155"
-                    alt="Tech Scalify" /></a>
+            <a href="index.html" aria-label="logo image"><img src="assets/images/logo-light.png" width="155"
+                    alt="" /></a>
         </div>
         <!-- /.logo-box -->
         <div class="mobile-nav__container"></div>
@@ -857,7 +857,7 @@
         <ul class="mobile-nav__contact list-unstyled">
             <li>
                 <i class="fa fa-envelope"></i>
-                    <a href="mailto:techscalify@gmail.com">techscalify@gmail.com</a>
+                <a href="mailto:needhelp@lotech.com">needhelp@lotech.com</a>
             </li>
             <li>
                 <i class="fa fa-phone-alt"></i>
@@ -906,25 +906,26 @@
     <div class="sidebar-one__content">
         <div class="sidebar-one__close"><i class="flaticon-close"></i></div><!-- /.siderbar-close -->
         <div class="sidebar-one__logo">
-            <a href="index.html" aria-label="logo image"><img src="img/tech_scalify_lg.png" alt="Tech Scalify"
+            <a href="index.html" aria-label="logo image"><img src="assets/images/logo-light.png" alt="lotech"
                     width="133"></a>
         </div><!-- /.sidebar-one__logo-box -->
         <p class="sidebar-one__text">
-            Tech Scalify is a trusted IT services company delivering scalable, secure, and innovative digital solutions to help businesses grow faster. From cloud computing to custom software development, we transform ideas into powerful technology.
+            Mauris ut enim sit amet lacus ornare ullamcor. Praesent placerat nequ
+            puru rhoncu tincidunt odio ultrices. Sed feugiat feugiat felis.
         </p>
         <h4 class="sidebar-one__title">Contact Info:</h4>
         <ul class="sidebar-one__info">
             <li>
                 <span class="fas fa-map-marker-alt"></span>
-                Raipur, Chhattisgarh, India
+                85 Ketch Harbour RoadBensalem, PA 19020
             </li>
             <li>
                 <span class="fas fa-envelope"></span>
-                    <a href="mailto:techscalify@gmail.com">techscalify@gmail.com</a>
+                <a href="mailto:needhelp@company.com">needhelp@company.com</a>
             </li>
             <li>
                 <span class="fas fa-phone-alt"></span>
-                <a href="tel:+918717872372">(+91) 871-787-2372</a>
+                <a href="tel:09969569535">099 695 695 35</a>
             </li>
         </ul>
         <div class="sidebar-one__social">

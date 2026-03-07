@@ -51,11 +51,12 @@
                                 <ul class="footer-widget__info">
                                     <li>
                                         <i class="flaticon-phone"></i>
-                                        <a href="tel:+918717872372">(+91) 871-787-2372</a>
+                                        <a href="tel:70455501270022">(+91) 871-787-2372</a><br>
+                                        <!-- <a href="tel:48055501036655">(480) 555-0103 66 55</a> -->
                                     </li>
                                     <li>
                                         <i class="flaticon-envelope"></i>
-                                        <a href="mailto:techscalify@gmail.com">techscalify@gmail.com</a>
+                                        <a href="mailto:techscalify.com">techscalify.com</a>
                                     </li>
                                     <li>
                                         <i class="flaticon-location"></i>
