@@ -31,7 +31,7 @@
                         <div class="col-md-3 tp-btn-trigger">
                             <div class="hero-banner-one__circle tp-btn-bounce">
                                 <div class="hero-banner-one__circle__logo">
-                                    <img src="img/techscalify.png" alt="Lotech">
+                                    <img src="img/techscalify.png" alt="Tech Scalify - Leading IT Services and Technology Solutions Company">
                                 </div>
                                 <div class="curved-circle">
                                     <div class="curved-circle--item" data-circle-text-options='{
@@ -103,22 +103,22 @@
             }
             }'>
                         <div class="client-carousel__one__item">
-                            <img src="assets/images/resources/brand-1-1.png" alt="lotech">
+                            <img src="assets/images/resources/brand-1-1.png" alt="Trusted Business Partner - Tech Scalify Client Brand">
                         </div><!-- /.owl-slide-item-->
                         <div class="client-carousel__one__item">
-                            <img src="assets/images/resources/brand-1-1.png" alt="lotech">
+                            <img src="assets/images/resources/brand-1-1.png" alt="Trusted Business Partner - Tech Scalify Client Brand">
                         </div><!-- /.owl-slide-item-->
                         <div class="client-carousel__one__item">
-                            <img src="assets/images/resources/brand-1-1.png" alt="lotech">
+                            <img src="assets/images/resources/brand-1-1.png" alt="Trusted Business Partner - Tech Scalify Client Brand">
                         </div><!-- /.owl-slide-item-->
                         <div class="client-carousel__one__item">
-                            <img src="assets/images/resources/brand-1-1.png" alt="lotech">
+                            <img src="assets/images/resources/brand-1-1.png" alt="Trusted Business Partner - Tech Scalify Client Brand">
                         </div><!-- /.owl-slide-item-->
                         <div class="client-carousel__one__item">
-                            <img src="assets/images/resources/brand-1-1.png" alt="lotech">
+                            <img src="assets/images/resources/brand-1-1.png" alt="Trusted Business Partner - Tech Scalify Client Brand">
                         </div><!-- /.owl-slide-item-->
                         <div class="client-carousel__one__item">
-                            <img src="assets/images/resources/brand-1-1.png" alt="lotech">
+                            <img src="assets/images/resources/brand-1-1.png" alt="Trusted Business Partner - Tech Scalify Client Brand">
                         </div><!-- /.owl-slide-item-->
                     </div><!-- /.thm-owl__slider -->
                 </div><!-- /.container -->
@@ -161,7 +161,7 @@
                                                     class="flaticon-up-right-arrow"></i></span></span>
                                     </a>
                                     <!-- <div class="about-one__content__author">
-                                                <img src="assets/images/resources/about-author-1.jpg" alt="lotech">
+                                                <img src="assets/images/resources/about-author-1.jpg" alt="Tech Scalify Team Member - Expert IT Services Professional">
                                                 <div class="about-one__content__author__content">
                                                     <h5 class="about-one__content__author__name">Esther Howard</h5>
                                                     <p class="about-one__content__author__text">JR Designer</p>
@@ -172,7 +172,7 @@
                         </div><!-- /.col-xl-6 -->
                         <div class="col-xl-6 text-end">
                             <div class="about-one__image" data-speed="1.1" data-lag="0">
-                                <img src="assets/images/resources/about-1-1.jpg" alt="lotech">
+                                <img src="assets/images/resources/about-1-1.jpg" alt="Tech Scalify Team - Professional IT Services and Digital Solutions Experts">
                                 <div class="about-one__image__experiance count-box" data-aos="flip-up"
                                     data-aos-duration="1200" data-aos-delay="300">
                                     <h3 class="about-one__image__experiance__count"><span class="count-text"
@@ -408,7 +408,7 @@
                                     Foundation for Growth</h3><!-- /.sec-title__title -->
                             </div><!-- /.sec-title -->
                             <div class="why-choose-one__image pt-2" data-speed="1.1" data-lag="0">
-                                <img src="assets/images/resources/why-choose-1-1.jpg" alt="lotech">
+                                <img src="assets/images/resources/why-choose-1-1.jpg" alt="Why Choose Tech Scalify - Expert IT Services and Digital Transformation Solutions">
                             </div>
                         </div>
                         <div class="col-lg-6" data-aos="flip-down" data-aos-duration="1400" data-aos-delay="200">
@@ -611,7 +611,7 @@
 			}'>
                         <div class="item">
                             <div class="portfolio-one__item">
-                                <img src="assets/images/folio/folio-1-1.jpg" alt="lotech">
+                                <img src="assets/images/folio/folio-1-1.jpg" alt="High-Performance Business Website Development by Tech Scalify">
                                 <div class="portfolio-one__item__rm">
                                     <a href="case-study-details-right.html">
                                         <span><i class="flaticon-up-right-arrow"></i><i
@@ -628,7 +628,7 @@
                         </div><!-- item -->
                         <div class="item">
                             <div class="portfolio-one__item">
-                                <img src="assets/images/folio/folio-1-2.jpg" alt="lotech">
+                                <img src="assets/images/folio/folio-1-2.jpg" alt="SEO and Digital Marketing Success - Increased Organic Traffic by Tech Scalify">
                                 <div class="portfolio-one__item__rm">
                                     <a href="case-study-details-right.html">
                                         <span><i class="flaticon-up-right-arrow"></i><i
@@ -645,7 +645,7 @@
                         </div><!-- item -->
                         <div class="item">
                             <div class="portfolio-one__item">
-                                <img src="assets/images/folio/folio-1-3.jpg" alt="lotech">
+                                <img src="assets/images/folio/folio-1-3.jpg" alt="Custom Software Development and Business Automation Solutions by Tech Scalify">
                                 <div class="portfolio-one__item__rm">
                                     <a href="case-study-details-right.html">
                                         <span><i class="flaticon-up-right-arrow"></i><i
@@ -662,7 +662,7 @@
                         </div><!-- item -->
                         <div class="item">
                             <div class="portfolio-one__item">
-                                <img src="assets/images/folio/folio-1-4.jpg" alt="lotech">
+                                <img src="assets/images/folio/folio-1-4.jpg" alt="24/7 Managed IT Services and System Stability Solutions by Tech Scalify">
                                 <div class="portfolio-one__item__rm">
                                     <a href="case-study-details-right.html">
                                         <span><i class="flaticon-up-right-arrow"></i><i
@@ -858,7 +858,7 @@
         <ul class="mobile-nav__contact list-unstyled">
             <li>
                 <i class="fa fa-envelope"></i>
-                <a href="mailto:needhelp@lotech.com">needhelp@lotech.com</a>
+                <a href="mailto:needhelp@techscalify.com">needhelp@techscalify.com</a>
             </li>
             <li>
                 <i class="fa fa-phone-alt"></i>
@@ -907,7 +907,7 @@
     <div class="sidebar-one__content">
         <div class="sidebar-one__close"><i class="flaticon-close"></i></div><!-- /.siderbar-close -->
         <div class="sidebar-one__logo">
-            <a href="index.html" aria-label="logo image"><img src="assets/images/logo-light.png" alt="lotech"
+            <a href="index.html" aria-label="logo image"><img src="assets/images/logo-light.png" alt="Tech Scalify - IT Services and Digital Solutions Company Logo"
                     width="133"></a>
         </div><!-- /.sidebar-one__logo-box -->
         <p class="sidebar-one__text">

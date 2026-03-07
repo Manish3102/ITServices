@@ -48,7 +48,7 @@
                     </div><!-- /.col-xl-6 -->
                     <div class="col-xl-6 text-end">
                         <div class="about-one__image" data-speed="1.1" data-lag="0">
-                            <img src="assets/images/resources/about-1-1.jpg" alt="lotech">
+                            <img src="assets/images/resources/about-1-1.jpg" alt="Custom Software Development Services by Tech Scalify - Enterprise Software Solutions">
                             <div class="about-one__image__experiance count-box" data-aos="flip-up"
                                 data-aos-duration="1200" data-aos-delay="300">
                                 <h3 class="about-one__image__experiance__count"><span class="count-text" data-stop="25"
@@ -68,7 +68,7 @@
                 <div class="row">
                     <div class="col-xl-6 ">
                         <div class="about-one__image" data-speed="1.1" data-lag="0">
-                            <img src="assets/images/resources/about-1-1.jpg" alt="lotech">
+                            <img src="assets/images/resources/about-1-1.jpg" alt="Custom Software Development Services by Tech Scalify - Enterprise Software Solutions">
 
                         </div><!-- /.about-one__image -->
                     </div>
@@ -218,7 +218,7 @@
                     </div><!-- /.col-xl-6 -->
                     <div class="col-xl-6 text-end">
                         <div class="about-one__image" data-speed="1.1" data-lag="0">
-                            <img src="assets/images/resources/about-1-1.jpg" alt="lotech">
+                            <img src="assets/images/resources/about-1-1.jpg" alt="Custom Software Development Services by Tech Scalify - Enterprise Software Solutions">
                             <div class="about-one__image__experiance count-box" data-aos="flip-up"
                                 data-aos-duration="1200" data-aos-delay="300">
                                 <h3 class="about-one__image__experiance__count"><span class="count-text" data-stop="25"
@@ -247,7 +247,7 @@
                         </div><!-- /.sec-title -->
                        
                         <div class="why-choose-one__image pt-2" data-speed="1.1" data-lag="0">
-                            <img src="assets/images/resources/why-choose-1-1.jpg" alt="lotech">
+                            <img src="assets/images/resources/why-choose-1-1.jpg" alt="Why Choose Tech Scalify Software Development - Expert Custom Software Solutions">
                         </div>
                     </div>
                     <div class="col-lg-6" data-aos="flip-down" data-aos-duration="1400" data-aos-delay="200">
@@ -423,7 +423,7 @@
         <ul class="mobile-nav__contact list-unstyled">
             <li>
                 <i class="fa fa-envelope"></i>
-                <a href="mailto:needhelp@lotech.com">needhelp@lotech.com</a>
+                <a href="mailto:needhelp@techscalify.com">needhelp@techscalify.com</a>
             </li>
             <li>
                 <i class="fa fa-phone-alt"></i>
@@ -472,7 +472,7 @@
     <div class="sidebar-one__content">
         <div class="sidebar-one__close"><i class="flaticon-close"></i></div><!-- /.siderbar-close -->
         <div class="sidebar-one__logo">
-            <a href="index.html" aria-label="logo image"><img src="assets/images/logo-light.png" alt="lotech"
+            <a href="index.html" aria-label="logo image"><img src="assets/images/logo-light.png" alt="Tech Scalify - IT Services and Digital Solutions Company Logo"
                     width="133"></a>
         </div><!-- /.sidebar-one__logo-box -->
         <p class="sidebar-one__text">

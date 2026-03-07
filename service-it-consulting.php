@@ -61,7 +61,7 @@
                     </div><!-- /.col-xl-6 -->
                     <div class="col-xl-6 text-end">
                         <div class="about-one__image" data-speed="1.1" data-lag="0">
-                            <img src="assets/images/resources/about-1-1.jpg" alt="lotech">
+                            <img src="assets/images/resources/about-1-1.jpg" alt="IT Strategy Consulting Services by Tech Scalify - Technology Consulting Experts">
                             <div class="about-one__image__experiance count-box" data-aos="flip-up"
                                 data-aos-duration="1200" data-aos-delay="300">
                                 <h3 class="about-one__image__experiance__count"><span class="count-text" data-stop="25"
@@ -81,7 +81,7 @@
                 <div class="row">
                     <div class="col-xl-6 ">
                         <div class="about-one__image" data-speed="1.1" data-lag="0">
-                            <img src="assets/images/resources/about-1-1.jpg" alt="lotech">
+                            <img src="assets/images/resources/about-1-1.jpg" alt="IT Strategy Consulting Services by Tech Scalify - Technology Consulting Experts">
 
                         </div><!-- /.about-one__image -->
                     </div>
@@ -177,7 +177,7 @@
                                                 class="flaticon-up-right-arrow"></i></span></span>
                                 </a>
                                 <!-- <div class="about-one__content__author">
-                                                <img src="assets/images/resources/about-author-1.jpg" alt="lotech">
+                                                <img src="assets/images/resources/about-author-1.jpg" alt="Tech Scalify IT Consultant - Expert Technology Strategy Advisor">
                                                 <div class="about-one__content__author__content">
                                                     <h5 class="about-one__content__author__name">Esther Howard</h5>
                                                     <p class="about-one__content__author__text">JR Designer</p>
@@ -188,7 +188,7 @@
                     </div><!-- /.col-xl-6 -->
                     <div class="col-xl-6 text-end">
                         <div class="about-one__image" data-speed="1.1" data-lag="0">
-                            <img src="assets/images/resources/about-1-1.jpg" alt="lotech">
+                            <img src="assets/images/resources/about-1-1.jpg" alt="IT Strategy Consulting Services by Tech Scalify - Technology Consulting Experts">
                             <!-- <div class="about-one__image__experiance count-box" data-aos="flip-up"
                                 data-aos-duration="1200" data-aos-delay="300">
                                 <h3 class="about-one__image__experiance__count"><span class="count-text" data-stop="25"
@@ -266,7 +266,7 @@
         <ul class="mobile-nav__contact list-unstyled">
             <li>
                 <i class="fa fa-envelope"></i>
-                <a href="mailto:needhelp@lotech.com">needhelp@lotech.com</a>
+                <a href="mailto:needhelp@techscalify.com">needhelp@techscalify.com</a>
             </li>
             <li>
                 <i class="fa fa-phone-alt"></i>
@@ -315,7 +315,7 @@
     <div class="sidebar-one__content">
         <div class="sidebar-one__close"><i class="flaticon-close"></i></div><!-- /.siderbar-close -->
         <div class="sidebar-one__logo">
-            <a href="index.html" aria-label="logo image"><img src="assets/images/logo-light.png" alt="lotech"
+            <a href="index.html" aria-label="logo image"><img src="assets/images/logo-light.png" alt="Tech Scalify - IT Services and Digital Solutions Company Logo"
                     width="133"></a>
         </div><!-- /.sidebar-one__logo-box -->
         <p class="sidebar-one__text">

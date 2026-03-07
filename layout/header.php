@@ -7,12 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home || Techscalify || IT Services & IT Solutions</title>
     <!-- favicons Icons -->
-    <base href="/ITServices/">
+    
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="img/techscalify.png" sizes="32x32" href="img/techscalify.png" />
     <link rel="icon" type="img/techscalify.png" sizes="16x16" href="img/techscalify.png" />
     <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
-    <meta name="description" content="Lotech is the best design for Business 2024. Lotech is a smooth and colorful HTML Template, perfect suitable for Business HTML Template. It includes everything you need for the website development." />
+    <meta name="description" content="Tech Scalify is a leading IT services company delivering scalable, secure, and innovative digital solutions. From web development and cloud computing to SEO and managed IT services, we help businesses grow faster with cutting-edge technology." />
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com/">
@@ -92,7 +92,7 @@
                     <a href="#" class="topbar__toggler main-header__toggler"><i><span></span><span></span><span></span></i>Menu</a>
                     <div class="topbar__logo">
                         <a href="index.php">
-                            <img src="img/tech_scalify_lg.png" alt="Lotech HTML" width="133">
+                            <img src="img/tech_scalify_lg.png" alt="Tech Scalify - Leading IT Services and Digital Solutions Company" width="133">
                         </a>
                     </div>
                     <div class="topbar__social">

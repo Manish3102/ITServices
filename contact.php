@@ -111,7 +111,7 @@
                             </div><!-- /.col-xl-8 col-lg-7 -->
                             <div class="col-xl-4 col-lg-5" data-aos="fade-up" data-aos-duration="1500">
                                 <div class="contact-three__image" data-speed="1.1" data-lag="0">
-                                    <img src="assets/images/resources/contact-1-2.jpg" alt="Lotech">
+                                    <img src="assets/images/resources/contact-1-2.jpg" alt="Contact Tech Scalify - Get Expert IT Services and Digital Solutions Consultation">
                                 </div>
                             </div><!-- /.col-xl-4 col-lg-5 -->
                         </div>
@@ -141,7 +141,7 @@
             <ul class="mobile-nav__contact list-unstyled">
                 <li>
                     <i class="fa fa-envelope"></i>
-                    <a href="mailto:needhelp@lotech.com">needhelp@lotech.com</a>
+                    <a href="mailto:needhelp@techscalify.com">needhelp@techscalify.com</a>
                 </li>
                 <li>
                     <i class="fa fa-phone-alt"></i>
@@ -190,7 +190,7 @@
         <div class="sidebar-one__content">
             <div class="sidebar-one__close"><i class="flaticon-close"></i></div><!-- /.siderbar-close -->
             <div class="sidebar-one__logo">
-                <a href="index.html" aria-label="logo image"><img src="assets/images/logo-light.png" alt="lotech" width="133"></a>
+                <a href="index.html" aria-label="logo image"><img src="assets/images/logo-light.png" alt="Tech Scalify - IT Services and Digital Solutions Company Logo" width="133"></a>
             </div><!-- /.sidebar-one__logo-box -->
             <p class="sidebar-one__text">
                 Mauris ut enim sit amet lacus ornare ullamcor. Praesent placerat nequ

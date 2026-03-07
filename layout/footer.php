@@ -4,7 +4,7 @@
                         <div class="col-md-6 col-lg-5" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100">
                             <div class="footer-widget footer-widget--about">
                                 <a href="index.php" class="footer-widget__logo">
-                                    <img src="img/white.png" width="190" alt="Lotech">
+                                    <img src="img/white.png" width="190" alt="Tech Scalify - IT Services and Digital Solutions Company Logo">
                                 </a>
                                 <p class="footer-widget__text">
                                     Provide the expertise and support that proper<br> your business forward.

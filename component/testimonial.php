@@ -25,7 +25,7 @@
                                         <div class="testimonials-card__top">
                                             <div class="testimonials-card__author">
                                                 <div class="testimonials-card__quote">
-                                                    <img src="assets/images/shapes/quote-one.png" alt="lotech">
+                                                    <img src="assets/images/shapes/quote-one.png" alt="Customer Testimonial Quote - Tech Scalify IT Services">
                                                 </div>
                                                 <h3 class="testimonials-card__name">
                                                     Cameron Williamson
@@ -42,14 +42,14 @@
                                             </div><!-- /.testimonials-card__rating -->
                                         </div>
                                         <div class="testimonials-card__content">
-                                            Lotech’s managed IT services have been a game-changer for us. Their
+                                            Tech Scalify's managed IT services have been a game-changer for us. Their
                                             proactive
                                             monitoring and quick
                                             response times ensure that our systems are always up and running smoothly on
-                                            teach technology.
+                                            cutting-edge technology.
                                         </div><!-- /.testimonials-card__content -->
                                         <div class="testimonials-card__logo">
-                                            <img src="assets/images/resources/testimonial-1-logo.png" alt="lotech">
+                                            <img src="assets/images/resources/testimonial-1-logo.png" alt="Tech Scalify Client Testimonial - Trusted IT Services Partner">
                                         </div>
                                     </div><!-- /.testimonials-card -->
                                 </div><!-- /.item -->
@@ -58,7 +58,7 @@
                                         <div class="testimonials-card__top">
                                             <div class="testimonials-card__author">
                                                 <div class="testimonials-card__quote">
-                                                    <img src="assets/images/shapes/quote-one.png" alt="lotech">
+                                                    <img src="assets/images/shapes/quote-one.png" alt="Customer Testimonial Quote - Tech Scalify IT Services">
                                                 </div>
                                                 <h3 class="testimonials-card__name">
                                                     William Porterfield
@@ -75,14 +75,14 @@
                                             </div><!-- /.testimonials-card__rating -->
                                         </div>
                                         <div class="testimonials-card__content">
-                                            Lotech’s managed IT services have been a game-changer for us. Their
+                                            Tech Scalify's managed IT services have been a game-changer for us. Their
                                             proactive
                                             monitoring and quick
                                             response times ensure that our systems are always up and running smoothly on
-                                            teach technology.
+                                            cutting-edge technology.
                                         </div><!-- /.testimonials-card__content -->
                                         <div class="testimonials-card__logo">
-                                            <img src="assets/images/resources/testimonial-1-logo.png" alt="lotech">
+                                            <img src="assets/images/resources/testimonial-1-logo.png" alt="Tech Scalify Client Testimonial - Trusted IT Services Partner">
                                         </div>
                                     </div><!-- /.testimonials-card -->
                                 </div><!-- /.item -->
@@ -90,7 +90,7 @@
                         </div>
                         <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="200">
                             <div class="testimonials-one__image">
-                                <img src="assets/images/resources/testi-1-1.png" alt="lotech">
+                                <img src="assets/images/resources/testi-1-1.png" alt="Tech Scalify Customer Testimonials - Client Success Stories">
                             </div>
                         </div>
                     </div>
