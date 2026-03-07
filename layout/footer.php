@@ -56,7 +56,7 @@
                                     </li>
                                     <li>
                                         <i class="flaticon-envelope"></i>
-                                        <a href="mailto:techscalify.com">techscalify.com</a>
+                                        <a href="mailto:techscalify@gmail.com">techscalify@gmail.com</a>
                                     </li>
                                     <li>
                                         <i class="flaticon-location"></i>

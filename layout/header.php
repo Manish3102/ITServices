@@ -92,7 +92,7 @@
                     <a href="#" class="topbar__toggler main-header__toggler"><i><span></span><span></span><span></span></i>Menu</a>
                     <div class="topbar__logo">
                         <a href="index.php">
-                            <img src="img/tech_scalify_lg.png" alt="Tech Scalify - Leading IT Services and Digital Solutions Company" width="133">
+                            <img src="img/white.png" alt="Tech Scalify - Leading IT Services and Digital Solutions Company" width="133">
                         </a>
                     </div>
                     <div class="topbar__social">

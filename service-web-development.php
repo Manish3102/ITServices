@@ -222,8 +222,7 @@
         <span class="mobile-nav__close mobile-nav__toggler"><i class="flaticon-close"></i></span>
 
         <div class="logo-box">
-            <a href="index.html" aria-label="logo image"><img src="assets/images/logo-light.png" width="155"
-                    alt="" /></a>
+            <a href="index.php" aria-label="logo image"><img src="img/white.png" width="155" alt="Tech Scalify - IT Solutions" /></a>
         </div>
         <!-- /.logo-box -->
         <div class="mobile-nav__container"></div>
@@ -232,7 +231,7 @@
         <ul class="mobile-nav__contact list-unstyled">
             <li>
                 <i class="fa fa-envelope"></i>
-                <a href="mailto:info@techscalify.com">info@techscalify.com</a>
+                <a href="mailto:techscalify@gmail.com">techscalify@gmail.com</a>
             </li>
             <li>
                 <i class="fa fa-phone-alt"></i>
@@ -285,12 +284,10 @@
     <div class="sidebar-one__content">
         <div class="sidebar-one__close"><i class="flaticon-close"></i></div><!-- /.siderbar-close -->
         <div class="sidebar-one__logo">
-            <a href="index.html" aria-label="logo image"><img src="assets/images/logo-light.png" alt="Tech Scalify - IT Services and Digital Solutions Company Logo"
-                    width="133"></a>
+            <a href="index.php" aria-label="logo image"><img src="img/white.png" alt="Tech Scalify - IT Services and Digital Solutions Company Logo" width="133"></a>
         </div><!-- /.sidebar-one__logo-box -->
         <p class="sidebar-one__text">
-            Mauris ut enim sit amet lacus ornare ullamcor. Praesent placerat nequ
-            puru rhoncu tincidunt odio ultrices. Sed feugiat feugiat felis.
+            Tech Scalify is a trusted IT services company delivering scalable, secure, and innovative digital solutions to help businesses grow faster with cutting-edge technology.
         </p>
         <h4 class="sidebar-one__title">Contact Info:</h4>
         <ul class="sidebar-one__info">
@@ -300,7 +297,7 @@
             </li>
             <li>
                 <span class="fas fa-envelope"></span>
-                <a href="mailto:info@techscalify.com">info@techscalify.com</a>
+                <a href="mailto:techscalify@gmail.com">techscalify@gmail.com</a>
             </li>
             <li>
                 <span class="fas fa-phone-alt"></span>
