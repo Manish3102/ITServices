@@ -298,11 +298,15 @@
 			<ul class="mobile-nav__contact list-unstyled">
 				<li>
 					<i class="fa fa-envelope"></i>
-					<a href="mailto:needhelp@techscalify.com">needhelp@techscalify.com</a>
+					<a href="mailto:info@techscalify.com">info@techscalify.com</a>
 				</li>
 				<li>
 					<i class="fa fa-phone-alt"></i>
-					<a href="tel:666-888-0000">666 888 0000</a>
+					<a href="tel:+918717872372">(+91) 871-787-2372</a>
+				</li>
+				<li>
+					<i class="fa fa-map-marker-alt"></i>
+					Raipur, Chhattisgarh, India
 				</li>
 			</ul><!-- /.mobile-nav__contact -->
 			<div class="mobile-nav__social">
@@ -358,15 +362,15 @@
 			<ul class="sidebar-one__info">
 				<li>
 					<span class="fas fa-map-marker-alt"></span>
-					85 Ketch Harbour RoadBensalem, PA 19020
+					Raipur, Chhattisgarh, India
 				</li>
 				<li>
 					<span class="fas fa-envelope"></span>
-					<a href="mailto:needhelp@company.com">needhelp@company.com</a>
+					<a href="mailto:info@techscalify.com">info@techscalify.com</a>
 				</li>
 				<li>
 					<span class="fas fa-phone-alt"></span>
-					<a href="tel:09969569535">099 695 695 35</a>
+					<a href="tel:+918717872372">(+91) 871-787-2372</a>
 				</li>
 			</ul>
 			<div class="sidebar-one__social">

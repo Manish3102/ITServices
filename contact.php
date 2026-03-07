@@ -33,8 +33,7 @@
                                     <h3 class="contact-info__card__title">Phone</h3>
                                     <p class="contact-info__card__text">Speak directly with our team for quick assistance and project discussions.</p>
                                     <ul class="contact-info__card__list list-unstyled">
-                                        <li><a href="tel:+781002356123">+78 100 2356 123</a></li>
-                                        <li><a href="tel:+782002356123">+78 200 2356 123</a></li>
+                                        <li><a href="tel:+918717872372">(+91) 871-787-2372</a></li>
                                     </ul>
                                 </div><!-- /.contact-info__card -->
                             </div><!-- /.col-lg-4 col-md-6 -->
@@ -43,8 +42,7 @@
                                     <h3 class="contact-info__card__title">Email</h3>
                                     <p class="contact-info__card__text">Send us your requirements, questions, or ideas and we’ll get back to you promptly.</p>
                                     <ul class="contact-info__card__list list-unstyled">
-                                        <li><a href="mailto:infomela@gmail.com">infomela@gmail.com</a></li>
-                                        <li><a href="mailto:creativemela@gmail.com">creativemela@gmail.com</a></li>
+                                        <li><a href="mailto:info@techscalify.com">info@techscalify.com</a></li>
                                     </ul>
                                 </div><!-- /.contact-info__card -->
                             </div><!-- /.col-lg-4 col-md-6 -->
@@ -53,8 +51,7 @@
                                     <h3 class="contact-info__card__title">Location</h3>
                                     <p class="contact-info__card__text">Visit or connect with our team for in-person or virtual consultations.</p>
                                     <ul class="contact-info__card__list contact-info__card__list--address list-unstyled">
-                                        <li><a href="https://www.google.com/maps">260 Springs Crossing, <br> Canton, Georgia,
-                                                USA</a></li>
+                                        <li><a href="https://www.google.com/maps/search/Raipur+Chhattisgarh+India">Raipur, Chhattisgarh, India</a></li>
                                     </ul>
                                 </div><!-- /.contact-info__card -->
                             </div><!-- /.col-lg-4 col-md-6 -->
@@ -141,11 +138,15 @@
             <ul class="mobile-nav__contact list-unstyled">
                 <li>
                     <i class="fa fa-envelope"></i>
-                    <a href="mailto:needhelp@techscalify.com">needhelp@techscalify.com</a>
+                    <a href="mailto:info@techscalify.com">info@techscalify.com</a>
                 </li>
                 <li>
                     <i class="fa fa-phone-alt"></i>
-                    <a href="tel:666-888-0000">666 888 0000</a>
+                    <a href="tel:+918717872372">(+91) 871-787-2372</a>
+                </li>
+                <li>
+                    <i class="fa fa-map-marker-alt"></i>
+                    Raipur, Chhattisgarh, India
                 </li>
             </ul><!-- /.mobile-nav__contact -->
             <div class="mobile-nav__social">
@@ -200,15 +201,15 @@
             <ul class="sidebar-one__info">
                 <li>
                     <span class="fas fa-map-marker-alt"></span>
-                    85 Ketch Harbour RoadBensalem, PA 19020
+                    Raipur, Chhattisgarh, India
                 </li>
                 <li>
                     <span class="fas fa-envelope"></span>
-                    <a href="mailto:needhelp@company.com">needhelp@company.com</a>
+                    <a href="mailto:info@techscalify.com">info@techscalify.com</a>
                 </li>
                 <li>
                     <span class="fas fa-phone-alt"></span>
-                    <a href="tel:09969569535">099 695 695 35</a>
+                    <a href="tel:+918717872372">(+91) 871-787-2372</a>
                 </li>
             </ul>
             <div class="sidebar-one__social">
